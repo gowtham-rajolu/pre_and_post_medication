@@ -1,0 +1,146 @@
+
+<!--
+frontend_index.html
+
+Simple frontend to call the backend /predict_recommend endpoint.
+Place this file in the same folder as your backend during local testing OR
+serve via any static server. Update API_BASE if backend runs elsewhere.
+
+Open this file in a browser (after backend is running).
+-->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Perioperative Predictor Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 12px; }
+    label { display:block; margin-top:8px; font-weight:600; }
+    input, select { width: 100%; padding:8px; margin-top:4px; box-sizing:border-box; }
+    textarea { width:100%; padding:8px; box-sizing:border-box; }
+    .row { display:flex; gap:12px; }
+    .col { flex:1; }
+    button { margin-top:12px; padding:10px 14px; font-size:16px; }
+    pre { background:#f6f6f6; padding:10px; overflow:auto; max-height:300px; }
+  </style>
+</head>
+<body>
+  <h1>Perioperative Complication & Medication Demo</h1>
+  <p>Fill the patient fields below (or paste JSON in the box) and click <strong>Predict & Recommend</strong>.</p>
+
+  <div style="display:flex; gap:12px; flex-wrap:wrap;">
+    <div style="flex:1; min-width:260px;">
+      <label>Age</label>
+      <input id="Age" type="number" value="60" />
+
+      <label>Gender</label>
+      <select id="Gender"><option>Male</option><option>Female</option></select>
+
+      <label>BMI</label>
+      <input id="BMI" type="number" step="0.1" value="26.5" />
+
+      <label>ASA Score</label>
+      <select id="ASA_Score"><option>1</option><option selected>3</option><option>2</option><option>4</option></select>
+
+      <label>Diabetes</label>
+      <select id="Diabetes"><option>Yes</option><option selected>No</option></select>
+
+      <label>Hypertension</label>
+      <select id="Hypertension"><option>Yes</option><option selected>No</option></select>
+    </div>
+
+    <div style="flex:1; min-width:260px;">
+      <label>Heart Disease</label>
+      <select id="Heart_Disease"><option>No</option><option>Yes</option></select>
+
+      <label>Preop_Hb</label>
+      <input id="Preop_Hb" type="number" step="0.1" value="12.5" />
+
+      <label>Preop_WBC</label>
+      <input id="Preop_WBC" type="number" step="0.1" value="7.8" />
+
+      <label>Surgery Type</label>
+      <select id="Surgery_Type"><option>Whipple</option><option>Distal Pancreatectomy</option><option>Total Pancreatectomy</option></select>
+
+      <label>Duration_Min</label>
+      <input id="Duration_Min" type="number" value="360" />
+
+      <label>Blood_Loss_ml</label>
+      <input id="Blood_Loss_ml" type="number" value="700" />
+    </div>
+
+    <div style="flex:1; min-width:260px;">
+      <label>Vital_Instability</label>
+      <select id="Vital_Instability"><option>No</option><option selected>Yes</option></select>
+
+      <label>Postop_Hb</label>
+      <input id="Postop_Hb" type="number" step="0.1" value="10.8" />
+
+      <label>Postop_WBC</label>
+      <input id="Postop_WBC" type="number" step="0.1" value="12.0" />
+
+      <label>Patient JSON (optional, overrides form)</label>
+      <textarea id="jsonInput" rows="8" placeholder='{"Age":60,...}'></textarea>
+    </div>
+  </div>
+
+  <button id="predictBtn">Predict & Recommend</button>
+
+  <h3>Result</h3>
+  <pre id="output">No result yet.</pre>
+
+  <script>
+    // Change if your backend is hosted elsewhere
+    const API_BASE = "http://localhost:5000";
+
+    function buildPayloadFromForm() {
+      return {
+        Age: Number(document.getElementById("Age").value),
+        Gender: document.getElementById("Gender").value,
+        BMI: Number(document.getElementById("BMI").value),
+        ASA_Score: Number(document.getElementById("ASA_Score").value),
+        Diabetes: document.getElementById("Diabetes").value,
+        Hypertension: document.getElementById("Hypertension").value,
+        Heart_Disease: document.getElementById("Heart_Disease").value,
+        Preop_Hb: Number(document.getElementById("Preop_Hb").value),
+        Preop_WBC: Number(document.getElementById("Preop_WBC").value),
+        Surgery_Type: document.getElementById("Surgery_Type").value,
+        Duration_Min: Number(document.getElementById("Duration_Min").value),
+        Blood_Loss_ml: Number(document.getElementById("Blood_Loss_ml").value),
+        Vital_Instability: document.getElementById("Vital_Instability").value,
+        Postop_Hb: Number(document.getElementById("Postop_Hb").value),
+        Postop_WBC: Number(document.getElementById("Postop_WBC").value)
+      };
+    }
+
+    document.getElementById("predictBtn").addEventListener("click", async () => {
+      const jsonText = document.getElementById("jsonInput").value.trim();
+      let payload;
+      if (jsonText.length > 0) {
+        try {
+          payload = JSON.parse(jsonText);
+        } catch (e) {
+          document.getElementById("output").innerText = "Invalid JSON in the JSON box.";
+          return;
+        }
+      } else {
+        payload = buildPayloadFromForm();
+      }
+
+      document.getElementById("output").innerText = "Contacting backend...";
+      try {
+        const resp = await fetch(API_BASE + "/predict_recommend", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await resp.json();
+        document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById("output").innerText = "Request failed:\n" + String(err);
+      }
+    });
+  </script>
+</body>
+</html>
+```

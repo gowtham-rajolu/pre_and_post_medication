@@ -1,0 +1,1201 @@
+Patient_ID,Age,Gender,BMI,ASA_Score,Diabetes,Hypertension,Heart_Disease,Preop_Hb,Preop_WBC,Surgery_Type,Duration_Min,Blood_Loss_ml,Vital_Instability,Postop_Hb,Postop_WBC,Complication,Risk_Score,Recommended_Medication,Dosage,Duration
+P00001,73,Female,24.8,3,No,No,Yes,15.2,6.7,Whipple,480,1117,Yes,13.8,12.1,Infection,High,Antibiotics,533 mg/day,5 days
+P00002,63,Male,21.5,3,Yes,No,No,11.9,8.1,Total Pancreatectomy,347,737,No,8.8,8.8,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,5 days
+P00003,49,Female,19.1,3,Yes,No,No,10.9,7.1,Whipple,150,366,Yes,8.2,11.0,Infection,High,Antibiotics,500 mg/day,5 days
+P00004,77,Female,20.5,3,No,Yes,No,13.3,7.2,Whipple,339,187,No,12.3,10.1,None,High,Pain Management,300 mg/day,1 days
+P00005,42,Male,25.8,3,No,No,No,13.4,8.2,Distal Pancreatectomy,530,554,Yes,12.9,8.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00006,55,Female,23.1,2,Yes,Yes,No,13.8,9.8,Whipple,443,1271,No,11.2,11.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00007,73,Female,30.4,3,No,No,Yes,13.8,9.9,Whipple,194,856,Yes,12.2,12.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00008,53,Female,24.5,2,No,Yes,No,15.1,9.7,Distal Pancreatectomy,486,530,No,12.3,14.7,None,High,Pain Management,100 mg/day,1 days
+P00009,57,Male,21.7,3,Yes,Yes,No,10.9,8.7,Distal Pancreatectomy,534,1010,No,9.2,12.8,Infection,High,Antibiotics,500 mg/day,5 days
+P00010,45,Male,27.3,2,Yes,No,No,11.6,11.2,Total Pancreatectomy,181,341,No,10.2,14.7,Organ Failure,Medium,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00011,45,Male,28.6,2,No,No,Yes,13.8,7.9,Total Pancreatectomy,267,801,Yes,12.1,10.6,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00012,58,Female,20.5,3,Yes,Yes,No,11.7,7.7,Whipple,445,1001,No,9.0,9.1,Infection,High,Antibiotics,500 mg/day,7 days
+P00013,70,Female,20.5,2,No,No,No,11.3,11.5,Distal Pancreatectomy,333,840,Yes,8.1,11.8,Infection,High,Antibiotics,500 mg/day,5 days
+P00014,74,Male,18.6,3,No,No,No,15.2,1.5,Whipple,340,165,No,14.7,3.7,None,Medium,Pain Management,300 mg/day,3 days
+P00015,58,Female,29.0,2,No,Yes,No,11.1,6.6,Distal Pancreatectomy,384,1071,No,9.1,6.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00016,37,Female,28.0,1,Yes,No,Yes,12.6,9.5,Whipple,387,477,No,12.2,10.4,Infection,Medium,Antibiotics,572 mg/day,7 days
+P00017,56,Female,25.1,3,No,Yes,No,12.9,9.0,Total Pancreatectomy,365,487,No,11.1,11.3,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00018,36,Female,30.7,1,No,No,No,14.6,12.1,Distal Pancreatectomy,223,880,No,11.5,14.3,Infection,Medium,Antibiotics,604 mg/day,7 days
+P00019,58,Female,30.1,2,Yes,No,No,10.8,7.2,Total Pancreatectomy,260,308,No,9.3,7.0,None,Medium,Pain Management,300 mg/day,2 days
+P00020,78,Male,26.8,3,Yes,Yes,No,13.5,6.1,Distal Pancreatectomy,252,115,No,10.2,9.4,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00021,64,Female,31.0,2,Yes,Yes,Yes,11.9,6.3,Total Pancreatectomy,508,1420,No,9.6,9.4,None,High,No Medication,0,0 days
+P00022,72,Male,21.1,3,No,Yes,No,13.8,7.6,Distal Pancreatectomy,223,1085,No,10.5,7.6,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00023,36,Female,19.7,1,No,No,Yes,11.9,10.2,Whipple,401,1343,No,9.2,15.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00024,55,Male,22.0,2,Yes,No,No,14.9,10.3,Whipple,263,466,Yes,14.3,10.4,Organ Failure,Medium,IV Fluids + Vasopressors,1.7 L/day,7 days
+P00025,67,Female,18.9,3,No,No,No,11.9,6.9,Whipple,528,879,No,10.9,12.0,Infection,High,Antibiotics,500 mg/day,7 days
+P00026,46,Male,26.0,2,Yes,Yes,No,10.0,7.5,Whipple,462,1352,No,8.4,7.0,None,High,Pain Management,300 mg/day,2 days
+P00027,56,Female,32.0,2,No,Yes,No,12.1,5.8,Distal Pancreatectomy,479,539,Yes,11.3,11.0,Infection,Medium,Antibiotics,620 mg/day,7 days
+P00028,78,Male,18.6,2,No,Yes,Yes,12.7,6.0,Distal Pancreatectomy,488,789,Yes,10.8,5.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00029,59,Female,19.8,2,No,Yes,No,14.3,9.1,Distal Pancreatectomy,387,1159,No,12.5,13.5,Infection,High,Antibiotics,500 mg/day,7 days
+P00030,83,Male,24.8,3,No,No,No,11.5,10.2,Total Pancreatectomy,322,946,No,8.1,12.1,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00031,61,Female,32.0,2,No,No,Yes,11.5,5.6,Total Pancreatectomy,228,521,No,9.8,9.9,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00032,76,Male,22.7,3,No,No,No,14.2,7.5,Whipple,535,1312,No,11.4,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00033,62,Male,25.6,4,No,Yes,No,11.3,6.5,Whipple,242,1301,No,8.0,6.5,None,High,Pain Management,200 mg/day,2 days
+P00034,50,Female,18.6,2,No,No,Yes,12.8,8.7,Whipple,199,707,No,9.7,13.2,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00035,49,Female,20.2,4,Yes,No,No,12.8,6.2,Whipple,434,1438,No,11.8,6.2,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,7 days
+P00036,81,Male,32.8,2,Yes,No,Yes,13.3,3.1,Distal Pancreatectomy,372,119,No,11.4,8.6,Infection,High,Antibiotics,629 mg/day,7 days
+P00037,78,Female,32.5,4,Yes,No,No,12.1,9.0,Distal Pancreatectomy,230,775,Yes,10.7,8.8,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00038,37,Male,18.1,2,No,Yes,Yes,11.9,6.4,Distal Pancreatectomy,415,481,No,10.3,9.0,None,Medium,No Medication,0,0 days
+P00039,71,Male,32.3,3,No,Yes,No,13.4,6.6,Total Pancreatectomy,304,708,No,11.9,10.8,Infection,High,Antibiotics,623 mg/day,7 days
+P00040,41,Male,27.6,3,No,No,No,11.9,7.9,Distal Pancreatectomy,522,242,No,9.0,10.0,None,Medium,Pain Management,200 mg/day,1 days
+P00041,55,Female,31.0,2,Yes,Yes,No,11.4,7.7,Whipple,382,161,No,9.7,8.6,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00042,43,Male,24.8,3,No,Yes,No,14.5,7.9,Distal Pancreatectomy,465,1365,Yes,12.5,12.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00043,73,Male,25.7,3,No,No,No,13.6,3.7,Whipple,385,337,No,10.2,8.3,None,Medium,No Medication,0,0 days
+P00044,52,Female,25.3,1,No,No,No,15.1,8.1,Whipple,308,1254,No,14.6,13.6,None,Medium,Pain Management,100 mg/day,1 days
+P00045,38,Female,28.0,2,No,No,Yes,13.9,3.2,Whipple,465,1246,No,12.0,5.1,None,High,No Medication,0,0 days
+P00046,59,Female,20.1,3,No,Yes,No,11.5,8.5,Whipple,400,1026,No,8.7,11.3,Infection,High,Antibiotics,500 mg/day,7 days
+P00047,48,Female,18.4,3,Yes,Yes,No,13.1,9.2,Whipple,463,441,No,12.3,11.1,Infection,High,Antibiotics,500 mg/day,7 days
+P00048,84,Male,22.6,4,No,No,No,11.8,4.3,Whipple,450,554,No,9.5,5.5,Infection,High,Antibiotics,507 mg/day,7 days
+P00049,43,Male,28.6,3,Yes,No,No,11.0,7.7,Distal Pancreatectomy,529,1321,No,9.9,12.1,Infection,High,Antibiotics,579 mg/day,7 days
+P00050,60,Male,21.0,4,No,No,No,12.5,9.1,Distal Pancreatectomy,431,381,No,9.4,10.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00051,36,Male,28.1,3,No,No,No,14.2,6.1,Whipple,251,985,No,12.9,8.4,Infection,Medium,Antibiotics,573 mg/day,7 days
+P00052,54,Female,32.5,2,No,No,No,13.3,8.3,Whipple,200,1124,No,11.9,10.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00053,62,Male,19.4,2,Yes,No,Yes,11.3,1.4,Distal Pancreatectomy,201,822,Yes,9.1,5.5,None,High,No Medication,0,0 days
+P00054,81,Male,28.1,3,No,Yes,No,12.4,9.2,Whipple,358,1455,No,11.5,14.7,Infection,High,Antibiotics,573 mg/day,7 days
+P00055,41,Female,24.7,3,No,No,No,12.8,7.1,Total Pancreatectomy,456,1335,No,11.6,10.9,Infection,High,Antibiotics,532 mg/day,7 days
+P00056,78,Male,31.0,1,Yes,No,No,11.0,6.5,Distal Pancreatectomy,280,186,No,9.4,9.1,None,Medium,Pain Management,100 mg/day,1 days
+P00057,42,Male,20.7,2,No,No,No,13.9,9.0,Whipple,419,764,No,12.5,13.6,None,Medium,Pain Management,200 mg/day,2 days
+P00058,81,Male,28.4,4,No,No,Yes,12.7,10.5,Whipple,354,961,No,10.7,14.2,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P00059,69,Male,30.6,3,No,No,No,11.3,8.0,Whipple,368,160,Yes,9.1,7.9,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P00060,48,Male,32.2,2,No,Yes,No,11.3,10.2,Whipple,406,896,No,9.2,10.3,None,High,No Medication,0,0 days
+P00061,51,Male,28.2,3,Yes,No,Yes,14.3,3.9,Whipple,334,194,No,11.9,3.6,Infection,High,Antibiotics,574 mg/day,7 days
+P00062,70,Female,25.5,2,No,Yes,No,12.5,8.3,Distal Pancreatectomy,294,885,No,11.2,10.8,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00063,84,Female,27.3,2,Yes,No,Yes,14.4,6.7,Whipple,327,1270,Yes,13.7,11.6,None,High,Pain Management,100 mg/day,3 days
+P00064,74,Male,31.0,2,No,Yes,No,14.9,5.4,Distal Pancreatectomy,163,1369,No,12.2,6.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00065,38,Male,26.6,2,No,Yes,Yes,14.2,3.1,Distal Pancreatectomy,395,1060,No,11.2,5.1,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00066,36,Female,18.5,3,No,Yes,No,12.4,8.2,Whipple,336,396,Yes,11.3,13.6,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,3 days
+P00067,40,Male,32.0,2,Yes,No,No,10.0,8.8,Whipple,486,1246,No,8.4,13.7,Infection,High,Antibiotics,620 mg/day,10 days
+P00068,76,Male,28.3,3,No,Yes,No,13.4,9.7,Whipple,408,793,Yes,11.5,13.5,None,High,Pain Management,300 mg/day,2 days
+P00069,38,Male,28.1,4,No,Yes,No,15.5,9.4,Whipple,503,498,No,13.5,10.6,None,Medium,Pain Management,300 mg/day,3 days
+P00070,63,Female,21.2,2,No,No,No,13.0,5.5,Distal Pancreatectomy,189,1045,No,10.6,5.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00071,52,Male,27.9,3,No,Yes,No,10.6,9.6,Whipple,238,1354,No,10.2,9.2,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00072,60,Female,23.9,3,No,No,Yes,12.2,9.8,Distal Pancreatectomy,274,633,Yes,9.6,10.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00073,78,Male,27.8,4,No,No,No,12.8,6.5,Whipple,500,501,No,12.3,7.9,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00074,68,Female,19.6,2,No,No,Yes,11.7,7.1,Whipple,158,229,No,9.9,10.2,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,7 days
+P00075,44,Female,27.9,3,Yes,Yes,No,9.9,5.1,Distal Pancreatectomy,499,391,No,7.0,5.0,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P00076,70,Male,33.0,3,Yes,No,No,12.9,10.0,Distal Pancreatectomy,233,375,No,11.2,10.4,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00077,48,Female,18.7,2,No,Yes,No,12.1,4.0,Whipple,170,1011,No,11.3,4.7,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00078,65,Male,32.7,2,No,No,No,15.1,8.1,Whipple,430,1499,Yes,11.6,11.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00079,82,Female,24.1,3,No,Yes,Yes,13.1,5.8,Distal Pancreatectomy,507,1025,No,10.0,9.3,Infection,High,Antibiotics,525 mg/day,7 days
+P00080,49,Male,31.1,3,No,No,No,13.6,4.8,Whipple,527,154,No,10.8,7.9,Infection,Low,Antibiotics,609 mg/day,7 days
+P00081,42,Male,29.7,2,Yes,Yes,No,12.9,3.3,Whipple,321,838,No,11.3,4.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00082,48,Female,26.5,3,No,No,No,13.1,6.6,Distal Pancreatectomy,174,1149,No,12.2,8.5,Infection,High,Antibiotics,554 mg/day,5 days
+P00083,57,Male,29.1,2,Yes,No,No,11.0,4.5,Whipple,252,864,Yes,7.7,4.6,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00084,74,Male,31.2,3,Yes,No,Yes,11.8,7.1,Distal Pancreatectomy,339,1320,Yes,9.8,8.1,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P00085,55,Female,24.1,2,No,Yes,No,14.3,10.5,Distal Pancreatectomy,385,741,No,11.3,15.8,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00086,50,Male,22.9,4,Yes,No,No,13.3,7.4,Distal Pancreatectomy,462,1366,No,11.9,13.3,Infection,High,Antibiotics,510 mg/day,7 days
+P00087,79,Male,28.0,2,No,No,No,12.5,11.0,Distal Pancreatectomy,186,823,No,11.1,14.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00088,52,Female,30.1,2,Yes,No,No,13.6,5.0,Distal Pancreatectomy,421,1313,No,10.1,10.5,Infection,High,Antibiotics,597 mg/day,7 days
+P00089,81,Female,29.4,2,No,Yes,No,13.6,4.4,Distal Pancreatectomy,442,901,No,11.6,8.1,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00090,58,Male,30.0,2,No,No,No,15.4,4.9,Total Pancreatectomy,481,837,No,14.6,4.6,None,Medium,Pain Management,300 mg/day,1 days
+P00091,60,Male,24.5,3,Yes,Yes,Yes,13.2,6.9,Whipple,301,857,No,12.2,12.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00092,59,Female,30.3,2,No,Yes,No,11.7,12.4,Whipple,431,666,Yes,9.9,12.5,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00093,79,Female,19.8,3,No,Yes,No,12.9,3.7,Distal Pancreatectomy,169,1399,Yes,12.5,7.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00094,75,Male,26.2,1,No,No,No,13.7,8.2,Distal Pancreatectomy,286,439,No,11.9,9.3,Organ Failure,Low,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00095,63,Female,18.1,2,Yes,Yes,No,14.2,5.6,Whipple,508,252,No,12.6,7.6,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00096,49,Male,22.9,2,No,Yes,No,11.1,6.6,Total Pancreatectomy,178,1103,No,8.3,10.3,Infection,High,Antibiotics,510 mg/day,7 days
+P00097,79,Male,23.5,1,No,No,No,13.3,4.5,Whipple,180,526,No,11.9,6.8,None,Medium,Pain Management,100 mg/day,1 days
+P00098,35,Male,23.9,2,No,No,No,11.9,8.8,Distal Pancreatectomy,168,1102,No,8.5,9.9,None,Medium,No Medication,0,0 days
+P00099,59,Male,28.4,2,No,Yes,No,12.3,6.9,Distal Pancreatectomy,297,303,Yes,11.4,8.6,None,Medium,Pain Management,300 mg/day,1 days
+P00100,41,Male,23.8,3,No,No,No,14.0,9.2,Total Pancreatectomy,432,1235,No,11.8,10.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00101,43,Female,24.7,2,No,Yes,No,13.9,7.4,Whipple,499,424,Yes,13.3,13.1,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00102,58,Female,21.6,3,No,Yes,Yes,12.2,3.1,Distal Pancreatectomy,490,1381,Yes,9.6,7.8,None,High,Pain Management,300 mg/day,2 days
+P00103,35,Female,23.6,3,No,Yes,No,12.8,9.2,Whipple,449,1049,No,9.3,11.7,Infection,High,Antibiotics,519 mg/day,5 days
+P00104,78,Female,21.4,1,No,No,No,12.4,3.0,Whipple,312,1050,Yes,9.5,3.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00105,42,Male,19.1,3,No,Yes,No,16.5,3.3,Whipple,262,1473,No,14.4,8.1,None,High,Pain Management,200 mg/day,3 days
+P00106,58,Male,27.1,4,No,Yes,No,13.3,5.2,Distal Pancreatectomy,299,1038,Yes,11.4,5.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00107,45,Male,28.0,3,No,Yes,No,12.0,5.2,Whipple,479,1056,Yes,9.0,6.1,Infection,High,Antibiotics,572 mg/day,5 days
+P00108,51,Male,27.3,3,Yes,No,No,14.6,9.8,Whipple,404,993,No,11.3,11.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00109,42,Female,25.0,2,No,Yes,Yes,14.6,6.7,Distal Pancreatectomy,236,534,No,11.1,11.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00110,69,Male,23.7,3,No,Yes,No,15.2,9.5,Distal Pancreatectomy,499,1403,Yes,13.6,9.9,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,3 days
+P00111,69,Male,31.0,3,No,Yes,No,15.5,5.9,Distal Pancreatectomy,247,470,Yes,12.0,6.2,None,High,Pain Management,100 mg/day,3 days
+P00112,67,Female,25.8,3,No,Yes,No,13.8,7.6,Total Pancreatectomy,281,1032,No,13.0,10.3,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00113,39,Female,25.2,4,No,No,No,12.6,7.9,Whipple,461,348,No,11.5,9.2,Infection,Medium,Antibiotics,538 mg/day,7 days
+P00114,76,Female,18.4,2,No,No,No,12.8,8.4,Total Pancreatectomy,246,990,No,12.2,11.6,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00115,73,Female,23.1,1,Yes,Yes,No,12.6,6.1,Total Pancreatectomy,247,280,No,11.4,8.5,None,Medium,Pain Management,300 mg/day,2 days
+P00116,75,Male,23.7,3,No,Yes,No,12.5,6.2,Whipple,439,802,Yes,9.7,8.5,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00117,62,Male,24.0,3,No,Yes,No,14.5,6.4,Whipple,505,1098,No,11.5,6.6,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00118,41,Female,26.7,2,No,Yes,No,13.0,3.7,Whipple,376,177,No,10.2,4.1,None,Low,No Medication,0,0 days
+P00119,43,Male,26.0,2,Yes,Yes,No,14.2,6.8,Whipple,294,1018,No,11.9,11.6,Infection,High,Antibiotics,548 mg/day,7 days
+P00120,42,Male,27.1,1,No,No,No,13.8,6.2,Distal Pancreatectomy,305,984,Yes,11.9,11.5,Organ Failure,Medium,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00121,46,Male,29.5,2,Yes,No,No,11.7,8.2,Distal Pancreatectomy,419,435,No,9.1,9.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00122,68,Female,30.2,3,Yes,No,No,10.9,7.2,Distal Pancreatectomy,311,149,Yes,9.3,7.4,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00123,67,Male,28.8,3,Yes,No,No,11.5,9.7,Distal Pancreatectomy,261,184,Yes,8.5,9.5,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,7 days
+P00124,82,Female,32.3,2,Yes,No,No,12.5,7.1,Whipple,480,794,Yes,10.0,10.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00125,57,Male,18.3,2,No,No,No,13.2,5.9,Total Pancreatectomy,334,103,Yes,10.7,10.0,None,Low,Pain Management,300 mg/day,2 days
+P00126,58,Male,20.9,1,No,Yes,No,12.2,7.1,Whipple,354,1092,No,10.2,9.0,None,Medium,No Medication,0,0 days
+P00127,71,Male,18.1,2,No,No,No,13.8,8.4,Total Pancreatectomy,246,416,No,10.7,12.3,Organ Failure,Medium,IV Fluids + Vasopressors,2.5 L/day,3 days
+P00128,69,Female,27.7,3,No,No,No,12.4,3.5,Whipple,526,1234,Yes,11.3,7.6,Infection,High,Antibiotics,568 mg/day,10 days
+P00129,78,Male,31.5,4,Yes,No,No,13.3,5.6,Total Pancreatectomy,204,1457,No,11.8,11.2,None,High,No Medication,0,0 days
+P00130,74,Female,21.7,3,No,No,No,13.1,5.6,Whipple,266,862,No,10.3,5.5,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,7 days
+P00131,56,Female,31.9,1,No,Yes,Yes,15.1,7.8,Whipple,242,1256,No,13.2,8.5,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,5 days
+P00132,61,Female,18.9,4,No,Yes,No,11.8,8.1,Whipple,442,711,No,8.7,8.0,Infection,High,Antibiotics,500 mg/day,7 days
+P00133,69,Male,32.0,3,No,No,No,15.7,7.2,Distal Pancreatectomy,353,1104,Yes,14.3,12.3,Infection,High,Antibiotics,620 mg/day,10 days
+P00134,35,Male,23.3,3,No,Yes,No,12.3,2.0,Total Pancreatectomy,431,1013,No,10.8,6.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00135,69,Male,19.5,3,Yes,No,No,11.4,3.7,Whipple,338,898,No,8.3,6.9,None,High,Pain Management,300 mg/day,3 days
+P00136,71,Male,25.3,2,No,No,Yes,12.7,6.5,Total Pancreatectomy,472,218,No,10.9,6.5,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00137,81,Female,21.9,2,Yes,No,Yes,16.9,6.0,Distal Pancreatectomy,233,449,No,14.9,7.3,Infection,High,Antibiotics,500 mg/day,7 days
+P00138,48,Female,22.3,2,No,No,No,14.1,7.0,Distal Pancreatectomy,329,1016,No,12.7,8.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00139,37,Female,22.6,2,No,Yes,No,13.7,6.1,Distal Pancreatectomy,423,786,No,12.5,9.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00140,35,Male,30.0,2,No,Yes,No,14.0,10.1,Whipple,330,641,Yes,11.6,11.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00141,39,Female,26.1,3,Yes,No,Yes,12.1,2.4,Whipple,330,1178,No,11.4,2.4,Infection,High,Antibiotics,549 mg/day,7 days
+P00142,60,Male,22.7,3,No,No,Yes,13.4,7.6,Total Pancreatectomy,432,460,Yes,10.3,11.8,Infection,High,Antibiotics,508 mg/day,5 days
+P00143,48,Female,27.2,3,Yes,No,No,13.0,8.7,Total Pancreatectomy,436,807,No,10.2,10.1,Infection,High,Antibiotics,562 mg/day,7 days
+P00144,73,Male,28.7,2,No,Yes,No,15.2,8.4,Total Pancreatectomy,255,784,No,14.3,10.8,Infection,High,Antibiotics,580 mg/day,10 days
+P00145,61,Male,22.1,4,Yes,Yes,No,12.9,8.6,Total Pancreatectomy,278,429,No,10.4,8.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00146,43,Female,24.2,4,Yes,No,No,12.5,8.9,Whipple,411,318,No,10.3,13.6,Infection,High,Antibiotics,526 mg/day,7 days
+P00147,49,Female,19.8,3,No,Yes,No,11.6,5.8,Distal Pancreatectomy,160,307,No,10.7,9.0,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00148,49,Female,20.7,4,No,No,Yes,13.2,4.8,Whipple,311,944,No,12.0,10.2,None,High,Pain Management,200 mg/day,1 days
+P00149,60,Female,28.2,3,Yes,Yes,Yes,13.4,2.9,Total Pancreatectomy,330,184,No,11.8,5.6,None,High,Pain Management,100 mg/day,1 days
+P00150,76,Male,20.7,4,Yes,No,No,11.6,6.3,Whipple,362,784,No,9.1,11.9,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,3 days
+P00151,47,Female,25.9,2,No,No,No,13.5,5.4,Distal Pancreatectomy,423,344,No,11.2,10.7,Infection,Low,Antibiotics,546 mg/day,7 days
+P00152,66,Female,28.6,2,No,No,No,13.3,9.3,Distal Pancreatectomy,170,971,No,11.3,12.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00153,73,Female,19.6,2,No,Yes,No,14.2,6.4,Whipple,424,1122,No,11.4,12.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00154,83,Male,26.5,2,Yes,No,No,14.5,4.9,Whipple,409,1458,No,11.8,6.5,Infection,High,Antibiotics,554 mg/day,7 days
+P00155,66,Male,21.8,2,No,No,No,13.1,4.6,Total Pancreatectomy,482,1335,No,10.8,6.5,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00156,38,Female,32.4,3,Yes,Yes,No,11.8,11.0,Distal Pancreatectomy,265,695,Yes,9.0,10.8,None,High,Pain Management,200 mg/day,1 days
+P00157,64,Male,25.3,3,Yes,No,Yes,12.0,7.0,Whipple,174,784,No,10.6,10.3,Infection,High,Antibiotics,539 mg/day,7 days
+P00158,71,Female,30.1,3,No,No,No,15.1,5.4,Distal Pancreatectomy,482,1306,No,12.0,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00159,57,Male,26.3,2,No,No,No,13.2,7.2,Distal Pancreatectomy,403,1256,No,10.9,11.7,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00160,73,Male,18.7,3,Yes,No,No,15.1,10.8,Whipple,360,1113,No,12.2,11.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00161,79,Male,27.5,3,Yes,Yes,No,13.6,6.2,Whipple,454,1113,Yes,11.6,8.6,None,High,No Medication,0,0 days
+P00162,49,Male,32.3,2,Yes,Yes,Yes,13.9,8.4,Total Pancreatectomy,470,449,No,12.9,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00163,77,Female,27.0,3,No,Yes,No,14.1,9.4,Distal Pancreatectomy,488,381,No,12.1,13.2,None,High,No Medication,0,0 days
+P00164,63,Female,30.3,2,No,No,Yes,11.5,3.2,Distal Pancreatectomy,406,392,No,10.0,3.7,None,Medium,Pain Management,200 mg/day,2 days
+P00165,70,Female,31.3,2,Yes,No,No,13.4,5.7,Distal Pancreatectomy,317,1392,Yes,10.9,11.1,None,High,No Medication,0,0 days
+P00166,47,Male,21.4,4,Yes,No,No,11.5,9.1,Whipple,486,1320,No,9.7,10.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00167,66,Female,21.2,2,No,Yes,No,12.7,5.6,Whipple,170,1083,No,9.7,7.0,None,High,No Medication,0,0 days
+P00168,41,Female,27.2,3,No,Yes,No,13.8,7.8,Whipple,235,119,Yes,11.3,12.8,Infection,High,Antibiotics,562 mg/day,7 days
+P00169,56,Female,24.2,4,No,No,No,11.8,5.5,Whipple,164,858,Yes,9.3,8.0,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,3 days
+P00170,62,Male,30.6,3,Yes,No,No,13.7,6.1,Distal Pancreatectomy,199,504,No,12.7,5.8,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,5 days
+P00171,36,Male,31.5,2,Yes,Yes,No,11.2,5.9,Total Pancreatectomy,453,1238,No,7.8,8.6,None,High,No Medication,0,0 days
+P00172,76,Male,23.3,2,No,No,Yes,14.4,8.3,Whipple,454,800,No,11.4,8.3,Infection,High,Antibiotics,515 mg/day,7 days
+P00173,79,Female,21.6,1,No,Yes,No,12.2,7.4,Whipple,345,1079,Yes,9.4,13.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00174,40,Female,29.7,3,Yes,Yes,No,11.8,7.2,Distal Pancreatectomy,513,125,No,10.4,10.5,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00175,62,Female,22.1,2,No,No,No,11.3,12.0,Total Pancreatectomy,450,665,No,9.3,13.2,None,High,Pain Management,300 mg/day,1 days
+P00176,62,Male,30.3,2,Yes,Yes,No,12.3,10.5,Distal Pancreatectomy,437,494,No,11.6,13.7,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00177,78,Male,24.4,4,No,No,No,10.7,3.0,Total Pancreatectomy,537,1100,No,8.7,3.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00178,78,Female,28.0,3,Yes,Yes,No,12.3,6.1,Distal Pancreatectomy,394,622,No,11.5,10.8,Infection,High,Antibiotics,572 mg/day,10 days
+P00179,54,Male,19.4,2,Yes,Yes,Yes,14.3,11.9,Distal Pancreatectomy,502,961,No,12.2,17.4,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00180,64,Male,27.4,3,No,Yes,No,12.8,5.9,Whipple,350,1206,Yes,10.4,11.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00181,45,Male,24.8,3,No,No,No,11.6,11.2,Whipple,342,901,No,10.1,12.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00182,62,Male,26.8,2,No,Yes,No,13.3,6.1,Whipple,485,649,Yes,11.4,7.7,Infection,High,Antibiotics,557 mg/day,10 days
+P00183,59,Female,20.5,2,No,No,No,13.2,6.5,Distal Pancreatectomy,295,186,No,10.1,6.2,Infection,Low,Antibiotics,500 mg/day,7 days
+P00184,73,Male,29.1,3,Yes,Yes,No,15.3,8.7,Total Pancreatectomy,459,932,Yes,14.7,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00185,67,Male,30.9,3,No,Yes,No,13.9,6.8,Total Pancreatectomy,276,486,No,11.1,9.8,Infection,High,Antibiotics,606 mg/day,5 days
+P00186,35,Male,21.3,3,Yes,Yes,No,13.4,8.0,Whipple,324,1062,No,12.6,10.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00187,61,Male,19.4,2,No,No,Yes,14.1,10.1,Whipple,283,767,Yes,13.7,15.5,Infection,High,Antibiotics,500 mg/day,7 days
+P00188,47,Female,18.4,1,No,No,No,12.8,8.5,Whipple,215,385,Yes,11.9,9.1,None,Low,Pain Management,300 mg/day,1 days
+P00189,75,Female,27.6,2,No,Yes,No,12.9,7.3,Whipple,514,797,No,10.2,6.9,Infection,High,Antibiotics,567 mg/day,7 days
+P00190,37,Male,27.1,2,Yes,No,No,15.0,10.3,Distal Pancreatectomy,428,1064,No,13.4,10.3,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00191,73,Male,26.2,2,No,No,No,11.0,8.8,Total Pancreatectomy,395,468,No,7.9,9.8,Organ Failure,Medium,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00192,40,Male,21.5,1,No,Yes,No,14.2,5.5,Total Pancreatectomy,512,754,No,12.2,5.2,None,Low,No Medication,0,0 days
+P00193,42,Male,23.9,3,No,No,No,12.9,11.0,Distal Pancreatectomy,386,753,Yes,12.5,13.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00194,61,Male,26.9,4,Yes,Yes,Yes,12.7,8.3,Distal Pancreatectomy,320,796,No,10.1,9.8,None,High,Pain Management,300 mg/day,3 days
+P00195,43,Male,25.5,3,Yes,No,No,12.3,6.6,Distal Pancreatectomy,200,1123,Yes,11.6,7.3,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,3 days
+P00196,71,Female,32.8,4,No,No,No,13.2,3.0,Whipple,477,1014,No,10.4,7.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00197,67,Male,20.0,2,No,No,No,12.9,4.2,Distal Pancreatectomy,508,387,No,12.1,5.0,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00198,76,Female,28.4,4,Yes,No,No,12.5,10.4,Distal Pancreatectomy,302,194,No,11.1,14.4,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00199,78,Female,24.1,2,No,Yes,No,12.2,10.5,Distal Pancreatectomy,229,768,No,9.5,12.3,Infection,High,Antibiotics,525 mg/day,7 days
+P00200,58,Male,24.4,4,Yes,No,No,10.7,7.2,Whipple,294,140,Yes,7.3,10.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00201,49,Female,28.8,4,No,Yes,No,12.1,3.5,Whipple,423,430,No,10.6,9.1,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00202,66,Female,28.4,3,Yes,Yes,Yes,12.4,4.8,Whipple,304,1278,No,9.4,4.5,None,High,No Medication,0,0 days
+P00203,66,Female,32.9,4,Yes,No,No,13.2,3.8,Total Pancreatectomy,486,603,Yes,12.3,6.6,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,7 days
+P00204,58,Female,19.9,3,No,No,No,15.4,3.7,Whipple,512,374,Yes,12.5,8.8,Organ Failure,Medium,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00205,75,Female,19.6,2,Yes,No,No,12.3,11.1,Distal Pancreatectomy,474,278,No,9.9,14.4,Infection,High,Antibiotics,500 mg/day,5 days
+P00206,83,Female,28.9,2,No,Yes,No,11.8,11.1,Distal Pancreatectomy,485,236,No,10.9,12.4,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00207,83,Male,26.7,3,No,No,No,12.1,4.8,Whipple,292,866,No,10.8,6.9,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00208,46,Female,22.1,2,Yes,No,No,13.2,7.0,Distal Pancreatectomy,447,1087,No,12.5,10.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00209,73,Female,19.2,3,No,Yes,No,13.7,4.4,Total Pancreatectomy,183,1303,Yes,12.2,9.7,Infection,High,Antibiotics,500 mg/day,7 days
+P00210,36,Female,19.3,4,No,Yes,No,13.9,7.0,Whipple,453,1305,No,12.9,6.8,Infection,High,Antibiotics,500 mg/day,7 days
+P00211,37,Male,31.4,2,Yes,Yes,No,14.0,10.3,Total Pancreatectomy,388,1382,No,11.6,10.3,None,High,No Medication,0,0 days
+P00212,83,Female,20.9,3,No,Yes,No,14.2,9.2,Whipple,287,342,Yes,10.7,10.8,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00213,71,Male,22.9,4,No,No,No,12.7,8.6,Whipple,403,1219,No,12.4,9.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,7 days
+P00214,83,Female,21.4,4,No,No,No,15.5,6.6,Total Pancreatectomy,154,296,Yes,13.5,7.8,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00215,51,Male,23.3,4,Yes,No,No,12.6,9.5,Distal Pancreatectomy,521,625,Yes,10.5,10.4,Infection,High,Antibiotics,515 mg/day,7 days
+P00216,83,Male,19.0,3,Yes,No,Yes,13.1,8.3,Total Pancreatectomy,325,731,Yes,9.9,9.1,None,High,Pain Management,300 mg/day,1 days
+P00217,36,Female,25.8,4,Yes,Yes,No,14.6,7.8,Distal Pancreatectomy,522,507,No,12.7,8.1,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,7 days
+P00218,36,Female,19.0,3,No,No,No,13.7,6.8,Total Pancreatectomy,363,1392,No,11.7,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00219,62,Male,30.0,2,No,Yes,No,10.3,7.6,Distal Pancreatectomy,513,1294,No,8.5,8.0,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,7 days
+P00220,57,Female,21.5,3,No,No,No,13.0,7.6,Distal Pancreatectomy,172,790,No,11.8,8.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00221,71,Male,26.1,3,Yes,Yes,No,14.0,5.9,Distal Pancreatectomy,467,269,No,13.5,7.0,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P00222,66,Male,31.2,2,Yes,No,Yes,11.4,5.5,Whipple,162,258,No,9.8,11.1,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,5 days
+P00223,67,Male,27.8,3,No,Yes,No,13.9,5.0,Total Pancreatectomy,390,546,No,13.4,9.4,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00224,35,Male,26.0,3,No,Yes,No,13.5,5.1,Whipple,425,1117,No,11.4,9.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00225,53,Male,22.9,2,Yes,No,No,14.4,6.6,Distal Pancreatectomy,241,1205,No,13.1,6.8,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00226,36,Female,23.0,3,No,Yes,Yes,12.2,6.3,Whipple,257,1180,Yes,10.2,11.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00227,78,Male,28.0,3,Yes,No,No,14.2,5.8,Distal Pancreatectomy,378,211,No,13.5,8.0,Infection,High,Antibiotics,572 mg/day,5 days
+P00228,60,Male,32.9,3,No,Yes,No,13.2,5.6,Whipple,301,147,No,9.9,6.8,None,High,No Medication,0,0 days
+P00229,66,Female,27.9,1,No,No,No,15.1,7.6,Whipple,257,475,No,11.9,10.8,None,Low,No Medication,0,0 days
+P00230,40,Male,26.4,1,Yes,Yes,No,16.3,9.8,Total Pancreatectomy,438,927,Yes,15.4,14.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00231,66,Female,29.0,2,Yes,Yes,No,14.8,7.0,Whipple,325,132,Yes,13.4,11.6,Infection,High,Antibiotics,584 mg/day,7 days
+P00232,38,Female,25.0,4,No,Yes,No,13.6,6.8,Distal Pancreatectomy,469,603,No,11.3,12.1,Infection,High,Antibiotics,536 mg/day,7 days
+P00233,45,Female,18.9,2,Yes,No,No,15.8,5.1,Whipple,435,726,Yes,15.2,10.6,Infection,High,Antibiotics,500 mg/day,5 days
+P00234,51,Male,26.4,3,No,Yes,Yes,13.7,6.6,Whipple,513,1126,Yes,12.3,7.6,None,High,Pain Management,100 mg/day,1 days
+P00235,72,Male,32.4,2,No,Yes,No,11.9,9.4,Whipple,478,141,No,10.8,11.7,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,5 days
+P00236,58,Male,20.6,2,No,Yes,No,13.0,9.1,Distal Pancreatectomy,514,108,No,9.8,8.7,Infection,Medium,Antibiotics,500 mg/day,7 days
+P00237,39,Female,28.4,3,No,Yes,Yes,13.9,8.9,Whipple,390,1099,No,10.9,14.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00238,68,Male,21.0,3,No,No,No,14.0,8.9,Total Pancreatectomy,294,918,No,11.8,9.4,None,High,No Medication,0,0 days
+P00239,40,Female,26.0,2,Yes,No,No,11.6,7.9,Whipple,505,756,No,9.6,13.0,Infection,High,Antibiotics,548 mg/day,7 days
+P00240,56,Male,19.5,2,No,Yes,No,11.7,7.8,Whipple,163,1265,No,8.4,9.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00241,45,Female,24.8,1,No,No,No,12.6,7.5,Whipple,424,889,Yes,9.3,9.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00242,82,Male,29.3,3,No,No,No,13.6,6.2,Whipple,220,1150,No,10.2,6.0,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00243,50,Male,23.2,3,Yes,Yes,No,13.8,7.2,Distal Pancreatectomy,464,1166,No,13.1,8.8,Infection,High,Antibiotics,514 mg/day,5 days
+P00244,67,Male,28.0,2,Yes,No,No,13.2,7.4,Total Pancreatectomy,344,1254,No,12.4,12.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00245,43,Female,29.9,2,No,Yes,No,12.0,8.3,Distal Pancreatectomy,502,1339,No,9.5,8.0,Infection,High,Antibiotics,594 mg/day,5 days
+P00246,40,Female,31.9,2,Yes,No,No,15.1,7.2,Whipple,449,697,No,13.1,9.3,Organ Failure,Medium,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00247,50,Male,21.5,4,No,Yes,No,11.7,11.2,Whipple,516,1468,Yes,11.3,10.9,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00248,63,Male,24.0,4,No,No,No,14.6,4.6,Whipple,160,1035,No,14.1,6.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00249,37,Female,20.3,1,No,No,Yes,13.9,8.5,Total Pancreatectomy,255,1369,No,10.8,9.1,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00250,54,Female,32.9,3,No,Yes,Yes,14.5,6.9,Whipple,407,1111,No,11.4,8.0,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00251,70,Female,31.9,2,No,Yes,No,12.5,7.0,Distal Pancreatectomy,530,120,No,11.1,12.2,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00252,53,Male,26.1,2,No,No,No,12.8,5.4,Whipple,345,1098,No,9.6,7.7,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00253,60,Female,30.6,3,Yes,Yes,Yes,13.1,9.0,Whipple,294,556,No,10.9,10.3,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00254,37,Male,25.8,4,No,No,No,12.4,8.3,Whipple,369,1113,Yes,9.5,11.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00255,53,Female,27.4,4,No,No,Yes,13.3,8.7,Whipple,499,364,No,11.6,9.1,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P00256,54,Male,19.3,3,No,No,No,14.9,7.3,Distal Pancreatectomy,323,283,Yes,14.2,8.5,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00257,66,Female,29.3,2,No,No,No,11.4,6.4,Whipple,365,326,No,9.7,9.5,Infection,Medium,Antibiotics,587 mg/day,7 days
+P00258,41,Female,19.9,3,Yes,No,No,12.2,6.9,Distal Pancreatectomy,242,1369,No,10.4,7.9,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,7 days
+P00259,75,Female,30.4,2,No,No,No,12.1,7.9,Whipple,409,1196,No,10.0,11.8,Infection,High,Antibiotics,600 mg/day,7 days
+P00260,67,Female,29.7,3,No,No,Yes,12.9,3.0,Total Pancreatectomy,212,1273,No,12.3,5.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00261,74,Female,28.6,2,Yes,No,No,12.8,8.7,Whipple,178,1192,Yes,9.3,13.2,Infection,High,Antibiotics,579 mg/day,10 days
+P00262,73,Male,18.5,3,No,Yes,No,13.9,11.9,Total Pancreatectomy,424,1068,No,12.8,17.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00263,52,Female,22.5,2,No,No,No,13.0,8.0,Distal Pancreatectomy,496,904,No,12.1,8.3,Infection,Medium,Antibiotics,506 mg/day,7 days
+P00264,74,Female,21.9,2,No,No,No,13.4,6.4,Total Pancreatectomy,434,1353,No,11.4,8.1,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00265,35,Female,23.4,4,No,Yes,No,13.5,6.7,Whipple,521,822,Yes,11.5,8.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00266,45,Male,19.3,2,No,No,No,13.3,8.4,Distal Pancreatectomy,219,1195,No,11.6,8.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00267,62,Female,32.1,3,Yes,No,Yes,13.8,6.5,Whipple,528,1101,No,11.0,11.3,Infection,High,Antibiotics,621 mg/day,10 days
+P00268,59,Male,26.3,2,No,Yes,No,12.9,8.7,Whipple,428,974,Yes,10.9,13.1,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00269,84,Female,22.6,1,Yes,No,No,15.0,6.7,Whipple,380,183,No,12.7,9.3,Infection,Medium,Antibiotics,507 mg/day,7 days
+P00270,57,Female,24.0,1,No,Yes,Yes,16.0,10.4,Whipple,451,839,Yes,13.4,13.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00271,65,Male,24.7,2,No,No,No,13.8,10.4,Total Pancreatectomy,404,1422,No,13.4,10.3,Infection,High,Antibiotics,532 mg/day,5 days
+P00272,64,Female,27.0,4,Yes,Yes,No,13.3,6.3,Whipple,321,1416,Yes,11.2,9.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00273,76,Male,25.7,2,Yes,No,No,13.7,6.8,Distal Pancreatectomy,329,322,No,10.6,11.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00274,69,Male,31.8,4,No,No,No,11.7,7.0,Distal Pancreatectomy,413,892,No,11.3,10.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00275,41,Female,25.5,3,Yes,Yes,No,13.2,7.0,Distal Pancreatectomy,332,832,No,11.6,8.2,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00276,50,Male,32.9,2,No,No,No,12.1,5.1,Distal Pancreatectomy,471,1339,No,8.8,8.9,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,5 days
+P00277,60,Female,30.8,3,Yes,No,Yes,13.6,4.8,Whipple,354,1354,No,12.2,6.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,7 days
+P00278,82,Female,21.1,3,Yes,Yes,No,12.1,9.5,Distal Pancreatectomy,398,504,Yes,10.3,12.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00279,83,Male,32.0,3,No,No,Yes,12.6,9.2,Whipple,362,1292,No,9.2,11.9,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,3 days
+P00280,36,Male,19.7,2,No,No,No,10.8,9.1,Total Pancreatectomy,308,428,No,9.9,11.1,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00281,35,Male,30.3,2,No,Yes,No,11.6,6.9,Distal Pancreatectomy,249,525,No,11.1,11.1,None,Medium,No Medication,0,0 days
+P00282,82,Male,23.7,4,Yes,Yes,No,13.4,10.8,Total Pancreatectomy,466,869,Yes,10.3,16.0,Infection,High,Antibiotics,520 mg/day,7 days
+P00283,46,Female,31.2,4,No,Yes,No,12.0,7.0,Whipple,261,1319,Yes,8.9,6.5,Infection,High,Antibiotics,610 mg/day,7 days
+P00284,39,Female,31.0,4,No,Yes,No,14.3,8.7,Whipple,457,707,No,12.5,14.3,None,High,Pain Management,100 mg/day,3 days
+P00285,71,Male,30.1,2,No,No,No,11.9,4.2,Whipple,315,625,No,10.0,7.0,None,Medium,No Medication,0,0 days
+P00286,66,Female,29.9,3,No,No,No,13.5,6.5,Whipple,185,724,No,10.5,10.6,None,Medium,Pain Management,200 mg/day,2 days
+P00287,43,Female,22.6,3,No,Yes,No,12.1,6.7,Whipple,261,176,No,9.4,11.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00288,75,Female,19.2,3,No,Yes,No,13.5,6.9,Distal Pancreatectomy,236,1400,No,12.4,9.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00289,69,Female,24.0,2,Yes,Yes,Yes,11.2,4.3,Whipple,332,1019,No,10.8,9.2,Infection,High,Antibiotics,524 mg/day,7 days
+P00290,53,Male,20.6,3,No,No,No,12.5,8.4,Distal Pancreatectomy,234,1045,No,10.7,9.1,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,7 days
+P00291,82,Male,28.4,2,Yes,Yes,Yes,12.0,9.1,Total Pancreatectomy,418,565,No,9.0,9.6,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00292,50,Female,23.2,2,No,No,No,14.1,5.5,Distal Pancreatectomy,314,1443,Yes,10.9,9.3,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P00293,37,Male,32.6,4,Yes,No,No,13.6,4.7,Whipple,452,1283,Yes,10.2,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00294,54,Male,27.6,2,No,Yes,No,11.5,5.5,Whipple,239,591,Yes,8.4,10.8,Infection,High,Antibiotics,567 mg/day,7 days
+P00295,58,Male,30.3,2,No,No,Yes,12.8,8.0,Whipple,387,412,No,10.6,11.7,Infection,High,Antibiotics,599 mg/day,5 days
+P00296,67,Female,20.0,2,Yes,No,Yes,12.1,5.8,Whipple,171,1284,No,10.4,8.7,Infection,High,Antibiotics,500 mg/day,7 days
+P00297,58,Female,30.9,4,Yes,No,No,14.1,6.7,Distal Pancreatectomy,316,407,Yes,11.3,8.4,None,High,Pain Management,100 mg/day,1 days
+P00298,45,Female,31.8,3,Yes,No,No,14.5,4.9,Whipple,364,1269,No,11.8,10.8,Infection,High,Antibiotics,617 mg/day,10 days
+P00299,83,Male,25.3,2,No,Yes,No,11.3,11.0,Total Pancreatectomy,207,790,Yes,9.3,12.6,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P00300,42,Female,27.1,3,No,Yes,No,14.0,7.1,Distal Pancreatectomy,179,188,Yes,13.4,11.4,None,High,Pain Management,300 mg/day,2 days
+P00301,70,Female,29.5,3,Yes,No,No,12.0,9.3,Distal Pancreatectomy,255,834,Yes,8.7,12.3,Infection,High,Antibiotics,590 mg/day,5 days
+P00302,72,Male,20.6,2,No,Yes,No,12.7,8.0,Whipple,479,877,Yes,10.9,11.5,Infection,High,Antibiotics,500 mg/day,10 days
+P00303,74,Female,25.5,3,Yes,Yes,No,13.0,6.9,Whipple,316,850,No,11.5,9.0,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00304,54,Female,24.0,3,No,Yes,No,15.2,6.8,Distal Pancreatectomy,499,1431,No,12.9,12.6,Infection,High,Antibiotics,524 mg/day,10 days
+P00305,69,Male,20.2,3,No,Yes,No,11.8,5.5,Whipple,303,470,No,9.3,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00306,82,Male,23.5,2,Yes,No,No,14.0,6.1,Whipple,476,550,No,13.0,11.7,None,High,No Medication,0,0 days
+P00307,59,Male,19.0,4,No,Yes,Yes,11.6,5.0,Whipple,156,266,No,8.6,4.5,Infection,High,Antibiotics,500 mg/day,10 days
+P00308,69,Female,18.4,3,Yes,No,No,11.5,4.8,Whipple,346,491,No,10.3,8.0,None,High,No Medication,0,0 days
+P00309,59,Female,20.0,2,Yes,No,Yes,13.0,11.2,Distal Pancreatectomy,470,835,Yes,12.1,15.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00310,63,Female,32.4,2,Yes,Yes,No,13.0,7.6,Whipple,195,590,Yes,11.4,11.9,None,High,Pain Management,300 mg/day,2 days
+P00311,52,Male,26.2,1,Yes,Yes,No,9.6,9.9,Distal Pancreatectomy,167,1024,No,7.0,15.3,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00312,80,Male,32.5,2,No,No,No,14.4,5.4,Whipple,302,1273,Yes,11.0,4.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00313,52,Female,24.5,3,No,Yes,Yes,10.4,4.5,Distal Pancreatectomy,413,1166,Yes,7.5,4.0,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00314,36,Female,22.7,1,No,No,No,12.8,5.0,Total Pancreatectomy,223,1044,No,9.5,7.6,Infection,Medium,Antibiotics,508 mg/day,7 days
+P00315,69,Male,25.6,2,Yes,No,Yes,14.6,6.2,Total Pancreatectomy,294,128,No,13.9,5.9,Infection,High,Antibiotics,543 mg/day,5 days
+P00316,50,Male,24.6,3,Yes,Yes,Yes,15.7,7.1,Whipple,251,1154,Yes,15.2,12.9,None,High,Pain Management,200 mg/day,3 days
+P00317,75,Male,19.6,2,No,No,No,12.6,6.7,Whipple,484,792,Yes,10.5,7.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00318,70,Male,27.6,4,No,No,No,11.3,5.5,Whipple,484,227,No,10.1,8.1,Infection,Medium,Antibiotics,567 mg/day,7 days
+P00319,67,Female,21.2,2,Yes,Yes,No,14.5,7.2,Distal Pancreatectomy,270,866,No,11.6,7.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00320,38,Male,27.3,2,No,No,No,14.0,7.4,Distal Pancreatectomy,325,1417,Yes,11.5,10.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00321,67,Female,27.8,2,No,No,No,12.4,8.4,Distal Pancreatectomy,212,540,No,9.0,10.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00322,48,Female,20.3,2,No,Yes,Yes,12.3,9.9,Whipple,445,968,No,11.2,9.7,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00323,55,Female,18.9,1,No,No,No,12.1,6.3,Distal Pancreatectomy,233,623,No,10.2,8.0,None,Low,No Medication,0,0 days
+P00324,82,Male,29.7,3,Yes,No,No,12.6,9.4,Whipple,164,859,No,10.7,11.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00325,54,Male,24.9,4,Yes,No,No,13.4,7.1,Distal Pancreatectomy,504,209,Yes,12.3,13.0,None,High,No Medication,0,0 days
+P00326,42,Male,18.9,2,No,No,No,12.3,3.9,Whipple,283,1451,No,10.1,4.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00327,41,Male,32.9,3,Yes,No,No,12.5,10.6,Distal Pancreatectomy,270,1368,No,10.8,13.6,Infection,High,Antibiotics,630 mg/day,7 days
+P00328,37,Female,18.9,3,No,Yes,No,13.8,11.5,Whipple,468,262,Yes,12.1,17.4,None,High,No Medication,0,0 days
+P00329,51,Male,28.4,3,No,No,No,11.2,8.2,Whipple,277,659,No,9.7,12.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00330,67,Male,32.8,2,Yes,Yes,No,12.5,7.2,Distal Pancreatectomy,517,498,Yes,12.1,13.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00331,82,Female,21.6,2,No,No,Yes,11.0,6.5,Whipple,516,682,Yes,9.0,12.3,Infection,High,Antibiotics,500 mg/day,7 days
+P00332,46,Male,20.1,2,Yes,Yes,No,13.1,6.1,Distal Pancreatectomy,437,498,No,11.7,8.8,None,Medium,Pain Management,200 mg/day,3 days
+P00333,56,Female,19.8,3,No,Yes,No,10.7,9.4,Distal Pancreatectomy,450,338,No,10.4,13.4,Infection,High,Antibiotics,500 mg/day,7 days
+P00334,56,Female,22.5,3,No,Yes,No,14.1,7.0,Distal Pancreatectomy,527,1155,No,12.8,7.2,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00335,80,Female,19.5,2,No,No,Yes,11.4,10.3,Whipple,329,1246,No,10.2,12.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00336,64,Female,28.4,2,No,Yes,Yes,10.9,7.1,Whipple,231,209,No,9.3,11.9,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,3 days
+P00337,72,Female,18.9,4,No,No,No,12.6,6.2,Distal Pancreatectomy,162,1394,No,11.9,9.0,None,High,Pain Management,300 mg/day,1 days
+P00338,72,Female,25.6,3,No,Yes,Yes,15.1,5.8,Whipple,173,399,No,13.2,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00339,79,Female,33.0,4,No,Yes,No,13.9,5.5,Distal Pancreatectomy,317,1101,Yes,11.4,9.8,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00340,42,Female,30.2,3,Yes,Yes,No,10.7,8.0,Whipple,419,863,No,8.4,9.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00341,61,Male,27.2,2,Yes,No,No,11.4,4.4,Whipple,219,348,No,8.5,9.6,None,High,Pain Management,100 mg/day,2 days
+P00342,61,Male,22.6,3,Yes,Yes,No,12.5,5.4,Whipple,467,620,Yes,10.8,7.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00343,68,Male,27.4,3,Yes,Yes,No,15.7,9.6,Whipple,525,133,Yes,13.7,10.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00344,55,Male,25.9,2,No,Yes,No,11.9,5.1,Whipple,238,327,Yes,9.0,10.2,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00345,64,Female,24.4,3,No,Yes,Yes,11.9,8.7,Distal Pancreatectomy,338,684,No,10.2,10.9,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00346,67,Male,20.0,3,No,No,Yes,14.8,2.9,Distal Pancreatectomy,406,1057,No,12.3,7.3,Organ Failure,High,IV Fluids + Vasopressors,2.9 L/day,3 days
+P00347,62,Female,31.3,2,Yes,No,No,13.2,9.9,Whipple,366,912,No,11.5,13.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00348,81,Male,24.7,3,No,Yes,No,14.3,4.5,Total Pancreatectomy,531,823,No,12.7,6.5,Infection,High,Antibiotics,532 mg/day,7 days
+P00349,67,Male,20.9,3,Yes,No,No,12.1,5.2,Distal Pancreatectomy,181,683,No,9.4,10.0,Infection,High,Antibiotics,500 mg/day,7 days
+P00350,39,Male,23.5,4,No,No,No,12.9,8.4,Total Pancreatectomy,290,669,No,12.0,11.7,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,3 days
+P00351,82,Female,24.2,1,No,Yes,No,14.6,7.5,Distal Pancreatectomy,310,319,No,13.2,9.5,Organ Failure,Medium,IV Fluids + Vasopressors,2.4 L/day,3 days
+P00352,53,Male,30.4,2,Yes,No,Yes,12.8,8.8,Distal Pancreatectomy,181,1494,No,11.8,9.0,None,High,Pain Management,200 mg/day,3 days
+P00353,38,Female,29.0,3,Yes,No,No,14.3,4.4,Whipple,461,886,No,12.9,9.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00354,69,Female,29.5,2,Yes,Yes,No,13.5,6.4,Whipple,301,627,No,12.5,6.1,Infection,High,Antibiotics,590 mg/day,7 days
+P00355,83,Male,18.2,3,No,Yes,No,11.8,5.8,Whipple,496,174,No,9.6,10.9,Infection,High,Antibiotics,500 mg/day,7 days
+P00356,51,Male,24.2,3,No,No,No,13.0,4.8,Distal Pancreatectomy,409,235,No,10.1,6.6,None,Low,Pain Management,100 mg/day,3 days
+P00357,78,Male,25.2,2,No,No,Yes,14.2,8.2,Whipple,365,173,No,11.4,11.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00358,62,Female,18.3,3,Yes,Yes,No,13.8,8.9,Distal Pancreatectomy,428,353,No,12.3,14.4,None,High,No Medication,0,0 days
+P00359,64,Male,21.9,3,No,Yes,No,13.0,6.3,Whipple,434,1141,No,9.5,6.8,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,7 days
+P00360,63,Female,29.4,2,No,Yes,Yes,10.7,10.0,Distal Pancreatectomy,247,1121,No,8.5,13.2,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P00361,80,Female,20.1,4,No,No,No,10.8,5.4,Whipple,179,1166,No,9.2,9.9,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00362,40,Male,26.0,3,Yes,No,No,11.1,10.0,Whipple,239,149,No,8.1,14.4,Infection,High,Antibiotics,548 mg/day,7 days
+P00363,69,Male,21.2,3,Yes,No,No,12.4,8.1,Whipple,297,614,Yes,9.8,11.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00364,75,Female,18.2,3,No,Yes,No,12.5,4.6,Whipple,293,843,Yes,9.8,8.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00365,71,Female,21.6,3,No,No,Yes,11.2,11.0,Whipple,216,830,No,10.3,15.4,Infection,High,Antibiotics,500 mg/day,7 days
+P00366,58,Female,32.6,4,Yes,No,No,14.2,6.1,Distal Pancreatectomy,506,670,No,12.4,11.1,Infection,High,Antibiotics,627 mg/day,7 days
+P00367,63,Male,30.0,3,Yes,Yes,No,11.5,9.4,Whipple,207,675,No,8.4,13.9,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00368,83,Female,32.4,3,No,Yes,No,11.4,7.3,Whipple,430,1426,No,9.5,9.1,None,High,Pain Management,300 mg/day,1 days
+P00369,80,Male,25.3,4,No,No,Yes,13.1,7.7,Distal Pancreatectomy,428,1265,No,10.6,13.7,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,5 days
+P00370,65,Female,19.6,2,No,No,No,14.2,8.8,Whipple,385,1002,Yes,12.0,11.1,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00371,69,Female,26.2,3,No,No,No,15.5,8.7,Total Pancreatectomy,534,301,Yes,12.5,8.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00372,67,Male,24.8,2,No,No,No,13.7,6.3,Total Pancreatectomy,502,306,No,12.5,8.2,Bleeding,Low,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00373,55,Female,30.7,2,Yes,Yes,No,14.9,8.1,Whipple,277,514,Yes,12.8,8.4,Infection,High,Antibiotics,604 mg/day,10 days
+P00374,66,Male,19.5,2,No,No,Yes,11.5,7.9,Whipple,486,320,No,10.8,8.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00375,57,Male,25.3,4,No,No,No,15.6,7.4,Whipple,358,1485,No,13.1,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00376,67,Female,20.3,4,No,No,Yes,10.8,6.6,Distal Pancreatectomy,335,857,No,8.2,6.4,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,3 days
+P00377,37,Male,22.9,3,No,No,No,12.4,7.4,Distal Pancreatectomy,318,1204,No,12.0,11.4,Infection,High,Antibiotics,510 mg/day,7 days
+P00378,52,Male,29.1,3,Yes,No,No,13.7,10.9,Distal Pancreatectomy,321,862,No,11.2,10.9,Infection,High,Antibiotics,585 mg/day,7 days
+P00379,59,Female,25.1,3,Yes,Yes,No,11.1,6.4,Distal Pancreatectomy,409,662,No,9.5,7.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00380,76,Male,23.6,4,Yes,No,No,11.9,9.4,Whipple,354,1408,No,11.2,9.5,Infection,High,Antibiotics,519 mg/day,10 days
+P00381,65,Male,23.9,3,Yes,Yes,No,11.7,5.8,Distal Pancreatectomy,284,468,No,10.1,5.7,Infection,High,Antibiotics,522 mg/day,10 days
+P00382,37,Male,24.9,2,Yes,Yes,No,12.6,5.2,Distal Pancreatectomy,195,995,Yes,11.7,6.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00383,74,Female,29.8,2,No,Yes,Yes,14.7,13.6,Distal Pancreatectomy,158,1469,Yes,13.1,16.8,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00384,80,Male,31.4,3,No,Yes,Yes,13.0,8.1,Total Pancreatectomy,310,303,Yes,11.5,13.9,Infection,High,Antibiotics,612 mg/day,7 days
+P00385,58,Female,32.3,3,No,No,No,12.4,8.1,Distal Pancreatectomy,438,1148,No,9.7,13.3,Infection,High,Antibiotics,623 mg/day,10 days
+P00386,84,Female,29.8,2,No,No,Yes,9.5,8.2,Whipple,489,1056,No,6.7,13.4,Infection,High,Antibiotics,593 mg/day,7 days
+P00387,66,Male,22.7,1,No,No,No,13.6,9.8,Whipple,537,168,No,11.4,10.4,None,Low,Pain Management,300 mg/day,2 days
+P00388,81,Male,28.3,3,No,No,No,13.9,7.8,Whipple,470,615,No,13.5,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00389,56,Male,24.6,1,No,Yes,No,11.0,8.6,Whipple,255,339,No,7.7,8.6,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00390,57,Female,21.8,3,Yes,No,No,12.9,4.9,Total Pancreatectomy,439,460,No,10.4,9.5,None,Medium,Pain Management,200 mg/day,1 days
+P00391,36,Male,30.6,4,Yes,Yes,No,13.2,9.0,Whipple,490,1154,No,12.8,9.0,Infection,High,Antibiotics,603 mg/day,10 days
+P00392,61,Male,18.6,2,No,Yes,No,14.2,6.5,Distal Pancreatectomy,237,806,No,11.3,9.6,Infection,Medium,Antibiotics,500 mg/day,7 days
+P00393,76,Male,31.5,2,No,No,No,12.1,8.3,Distal Pancreatectomy,341,789,No,11.2,9.4,None,Medium,No Medication,0,0 days
+P00394,36,Male,24.9,3,No,Yes,No,11.9,3.6,Whipple,302,756,No,9.7,4.7,Infection,High,Antibiotics,534 mg/day,7 days
+P00395,60,Male,27.6,3,Yes,Yes,Yes,12.5,8.3,Total Pancreatectomy,460,1445,No,10.7,14.2,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00396,51,Female,27.9,3,Yes,No,No,14.5,2.5,Total Pancreatectomy,286,443,No,12.9,6.9,None,Medium,Pain Management,300 mg/day,3 days
+P00397,74,Female,31.4,4,No,No,No,14.3,6.4,Distal Pancreatectomy,422,635,Yes,11.2,11.3,Infection,High,Antibiotics,612 mg/day,10 days
+P00398,67,Male,27.6,2,Yes,Yes,No,13.0,3.6,Whipple,298,454,No,11.3,6.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00399,43,Male,27.2,3,No,No,Yes,14.2,8.3,Whipple,337,1027,No,13.7,13.5,Infection,High,Antibiotics,562 mg/day,5 days
+P00400,77,Male,19.0,3,No,No,Yes,10.2,7.1,Whipple,290,1082,No,6.9,10.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00401,82,Male,25.8,4,No,No,No,13.9,5.5,Whipple,280,204,No,10.7,11.2,Infection,High,Antibiotics,545 mg/day,7 days
+P00402,73,Female,20.3,2,No,Yes,No,11.7,9.9,Distal Pancreatectomy,153,1445,No,9.2,11.2,Infection,High,Antibiotics,500 mg/day,10 days
+P00403,63,Male,29.1,3,No,No,No,15.1,5.2,Total Pancreatectomy,412,1061,Yes,13.3,8.6,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P00404,76,Female,25.7,3,No,No,No,11.7,0.9,Distal Pancreatectomy,175,626,No,11.1,4.9,Infection,High,Antibiotics,544 mg/day,7 days
+P00405,60,Female,28.2,2,No,No,No,12.0,8.0,Total Pancreatectomy,173,603,Yes,9.2,10.1,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00406,69,Male,18.6,2,No,No,No,13.7,3.5,Distal Pancreatectomy,415,1208,No,13.2,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00407,84,Female,19.3,4,Yes,Yes,No,13.8,5.3,Whipple,378,1030,Yes,13.3,11.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00408,59,Female,28.7,2,Yes,Yes,Yes,12.5,6.0,Total Pancreatectomy,418,808,No,10.5,8.7,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00409,58,Female,19.1,2,Yes,No,No,13.4,4.2,Whipple,274,334,No,12.6,6.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00410,47,Female,19.1,2,No,Yes,No,13.6,6.0,Total Pancreatectomy,321,1386,Yes,13.3,8.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00411,41,Male,18.2,4,No,No,No,13.5,4.2,Whipple,383,1129,Yes,11.8,9.2,Organ Failure,High,IV Fluids + Vasopressors,2.8 L/day,3 days
+P00412,70,Male,32.3,3,No,Yes,No,12.5,7.3,Whipple,444,593,No,11.8,11.0,Infection,High,Antibiotics,623 mg/day,7 days
+P00413,79,Female,29.1,3,Yes,No,No,13.6,4.5,Total Pancreatectomy,424,1412,No,12.8,4.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00414,54,Male,23.3,2,Yes,No,No,14.7,7.1,Distal Pancreatectomy,225,977,No,14.2,10.1,None,High,Pain Management,100 mg/day,3 days
+P00415,35,Male,22.4,3,No,Yes,No,11.5,9.3,Total Pancreatectomy,457,1473,No,10.5,8.9,None,High,Pain Management,100 mg/day,3 days
+P00416,42,Male,23.2,3,Yes,Yes,No,12.0,8.6,Total Pancreatectomy,363,1323,No,9.4,13.2,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00417,80,Male,29.6,3,No,No,Yes,13.0,6.8,Whipple,525,1066,Yes,10.1,8.4,None,High,Pain Management,300 mg/day,3 days
+P00418,50,Male,27.9,4,No,No,Yes,11.7,5.0,Distal Pancreatectomy,307,1065,No,10.0,7.6,None,High,No Medication,0,0 days
+P00419,48,Female,20.8,1,No,Yes,No,10.8,7.3,Whipple,451,1063,Yes,8.9,12.0,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00420,46,Male,20.6,3,Yes,Yes,No,14.3,5.6,Distal Pancreatectomy,353,996,No,13.9,5.4,None,High,Pain Management,100 mg/day,3 days
+P00421,57,Male,19.5,2,Yes,No,No,10.3,7.4,Distal Pancreatectomy,298,1458,No,9.8,7.9,Infection,High,Antibiotics,500 mg/day,7 days
+P00422,49,Male,27.9,3,Yes,No,No,12.5,3.6,Whipple,224,316,No,11.4,5.7,Infection,Medium,Antibiotics,570 mg/day,7 days
+P00423,62,Male,29.5,2,No,Yes,No,13.9,8.6,Distal Pancreatectomy,529,722,Yes,11.9,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00424,68,Female,22.0,2,No,No,No,13.3,7.1,Distal Pancreatectomy,378,452,No,10.6,8.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00425,36,Female,18.3,2,Yes,Yes,Yes,12.5,11.4,Whipple,453,791,Yes,10.3,17.4,Infection,High,Antibiotics,500 mg/day,7 days
+P00426,66,Female,19.2,3,No,Yes,Yes,11.7,9.6,Distal Pancreatectomy,211,774,Yes,10.1,14.5,Infection,High,Antibiotics,500 mg/day,7 days
+P00427,57,Female,32.5,2,No,Yes,No,13.4,8.1,Distal Pancreatectomy,207,730,Yes,12.7,13.3,Organ Failure,High,IV Fluids + Vasopressors,1.1 L/day,5 days
+P00428,56,Male,22.4,3,Yes,Yes,Yes,11.8,6.8,Total Pancreatectomy,423,424,No,9.0,12.4,Infection,High,Antibiotics,504 mg/day,7 days
+P00429,59,Female,29.5,2,No,Yes,No,13.3,5.5,Whipple,257,1000,No,11.8,7.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00430,56,Male,27.4,2,No,No,No,13.2,8.9,Whipple,336,1351,No,10.5,10.3,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00431,56,Male,23.7,3,Yes,Yes,No,13.2,6.5,Distal Pancreatectomy,378,1268,Yes,11.3,7.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00432,83,Male,21.1,2,Yes,Yes,Yes,12.2,9.3,Whipple,197,407,No,9.5,14.2,Infection,High,Antibiotics,500 mg/day,10 days
+P00433,76,Male,19.8,2,No,Yes,No,15.4,7.8,Total Pancreatectomy,468,753,No,12.2,11.7,None,High,No Medication,0,0 days
+P00434,40,Male,27.2,3,No,No,No,13.4,7.8,Whipple,417,384,Yes,10.2,8.8,Infection,Medium,Antibiotics,562 mg/day,10 days
+P00435,49,Female,29.6,2,No,Yes,No,12.7,8.2,Distal Pancreatectomy,364,491,Yes,10.7,10.2,None,Medium,No Medication,0,0 days
+P00436,77,Female,27.7,2,No,Yes,No,13.3,5.2,Distal Pancreatectomy,439,459,No,11.4,8.0,Infection,Medium,Antibiotics,568 mg/day,5 days
+P00437,71,Female,26.0,2,No,No,Yes,12.1,5.0,Whipple,403,868,No,10.9,7.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00438,67,Female,18.6,4,No,No,No,12.5,4.9,Whipple,507,896,No,9.2,10.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00439,42,Male,32.5,3,No,Yes,No,15.9,9.1,Distal Pancreatectomy,236,1031,No,14.1,11.1,Infection,High,Antibiotics,626 mg/day,7 days
+P00440,78,Female,30.0,3,No,No,No,12.1,5.1,Distal Pancreatectomy,330,264,Yes,11.4,10.5,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00441,78,Male,22.4,3,Yes,No,No,12.9,5.4,Whipple,174,832,Yes,11.2,7.8,Infection,High,Antibiotics,504 mg/day,7 days
+P00442,39,Female,32.7,2,No,No,No,12.5,8.1,Total Pancreatectomy,537,680,No,11.8,12.5,Infection,Medium,Antibiotics,628 mg/day,10 days
+P00443,73,Male,27.0,2,No,Yes,Yes,11.8,6.5,Whipple,371,920,No,9.9,12.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00444,38,Male,26.7,3,No,No,No,13.5,6.2,Whipple,198,1347,No,11.4,11.6,Infection,High,Antibiotics,556 mg/day,5 days
+P00445,40,Female,29.2,2,No,Yes,No,13.0,6.1,Distal Pancreatectomy,483,223,No,11.6,6.0,Organ Failure,Low,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00446,79,Male,30.2,2,Yes,No,No,14.1,2.3,Whipple,324,443,No,13.6,3.1,None,High,Pain Management,100 mg/day,2 days
+P00447,66,Male,27.8,2,Yes,No,No,14.0,5.1,Total Pancreatectomy,460,623,Yes,10.7,7.7,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,7 days
+P00448,64,Female,19.9,2,Yes,Yes,No,14.1,9.4,Whipple,423,1175,No,11.3,11.7,None,High,No Medication,0,0 days
+P00449,81,Male,23.1,4,No,No,No,11.9,5.9,Whipple,184,228,No,8.9,9.6,Infection,High,Antibiotics,513 mg/day,7 days
+P00450,69,Female,31.9,2,No,Yes,Yes,13.8,3.2,Whipple,366,1258,Yes,12.3,8.8,Infection,High,Antibiotics,618 mg/day,10 days
+P00451,74,Female,21.4,3,Yes,No,No,13.8,5.0,Distal Pancreatectomy,358,756,No,11.1,5.2,None,High,Pain Management,200 mg/day,3 days
+P00452,50,Female,23.6,2,No,No,No,11.8,7.7,Distal Pancreatectomy,309,1250,Yes,9.9,10.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00453,47,Male,24.5,4,No,Yes,No,12.6,7.7,Distal Pancreatectomy,156,837,Yes,11.7,8.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00454,84,Male,24.6,2,No,Yes,No,11.3,6.4,Whipple,418,1038,No,10.6,11.7,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00455,76,Male,27.2,2,No,No,No,13.8,5.6,Whipple,275,170,No,12.4,11.4,None,Medium,No Medication,0,0 days
+P00456,64,Female,32.1,3,No,Yes,No,13.8,4.2,Distal Pancreatectomy,517,372,Yes,13.1,6.8,Infection,High,Antibiotics,621 mg/day,10 days
+P00457,53,Male,21.6,3,No,Yes,No,14.7,7.7,Whipple,474,1310,No,11.2,7.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00458,51,Female,19.8,2,Yes,Yes,No,12.7,8.7,Total Pancreatectomy,505,1126,No,12.2,13.3,Infection,High,Antibiotics,500 mg/day,7 days
+P00459,53,Female,21.0,2,Yes,No,No,13.5,9.6,Whipple,239,1408,No,11.8,13.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00460,62,Male,31.3,2,No,No,No,14.2,4.8,Distal Pancreatectomy,191,121,No,12.5,6.6,Infection,Low,Antibiotics,611 mg/day,10 days
+P00461,60,Female,27.7,2,No,Yes,No,12.1,9.7,Whipple,514,265,Yes,10.8,15.0,None,High,Pain Management,200 mg/day,2 days
+P00462,71,Male,22.3,2,No,Yes,Yes,11.9,6.9,Distal Pancreatectomy,308,1433,Yes,9.8,12.7,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P00463,60,Male,30.2,3,Yes,Yes,No,12.1,7.1,Whipple,351,974,Yes,11.3,10.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00464,57,Male,30.9,2,Yes,Yes,No,12.6,8.8,Whipple,515,597,Yes,9.8,12.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00465,43,Male,30.7,2,No,Yes,Yes,12.0,5.9,Whipple,431,533,Yes,10.6,7.3,None,High,No Medication,0,0 days
+P00466,46,Male,31.8,3,Yes,No,No,12.2,2.7,Whipple,481,857,Yes,10.0,6.0,Infection,High,Antibiotics,617 mg/day,5 days
+P00467,35,Female,21.8,4,No,Yes,No,14.1,8.4,Whipple,437,333,No,11.5,10.8,Infection,Medium,Antibiotics,500 mg/day,10 days
+P00468,35,Female,29.3,3,No,Yes,No,12.9,7.7,Distal Pancreatectomy,240,936,No,9.8,9.2,Infection,High,Antibiotics,587 mg/day,7 days
+P00469,81,Female,24.9,2,No,Yes,No,13.4,6.3,Distal Pancreatectomy,274,762,No,10.4,6.2,Infection,High,Antibiotics,534 mg/day,7 days
+P00470,68,Male,30.6,2,No,No,Yes,12.3,8.2,Distal Pancreatectomy,275,824,Yes,10.1,9.3,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,7 days
+P00471,66,Male,28.9,4,No,No,No,12.3,8.7,Distal Pancreatectomy,201,475,No,10.8,9.5,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00472,82,Male,29.6,2,Yes,No,No,13.3,4.0,Distal Pancreatectomy,252,829,Yes,11.4,7.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00473,59,Female,27.8,2,No,Yes,No,13.2,7.0,Whipple,510,1369,No,10.4,10.4,Infection,High,Antibiotics,569 mg/day,7 days
+P00474,74,Male,20.7,3,No,Yes,No,13.9,2.4,Whipple,336,402,Yes,10.8,5.9,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00475,79,Female,26.2,3,No,Yes,No,14.6,6.8,Whipple,354,504,No,14.0,8.8,None,High,Pain Management,200 mg/day,1 days
+P00476,35,Female,32.8,3,No,Yes,No,12.2,6.3,Distal Pancreatectomy,163,807,No,10.7,8.5,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00477,50,Male,32.1,2,No,No,No,14.0,8.0,Whipple,253,1016,No,11.2,12.9,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00478,73,Male,18.6,1,No,No,No,11.7,4.9,Whipple,266,120,Yes,10.0,7.5,Infection,Low,Antibiotics,500 mg/day,7 days
+P00479,39,Female,20.5,4,Yes,No,No,15.5,6.2,Distal Pancreatectomy,453,356,No,14.1,12.1,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,7 days
+P00480,56,Male,20.0,2,No,No,Yes,12.1,0.6,Whipple,242,498,No,10.5,3.0,Infection,Medium,Antibiotics,500 mg/day,10 days
+P00481,63,Female,28.9,3,No,Yes,Yes,13.8,8.1,Total Pancreatectomy,293,150,Yes,11.6,11.8,Infection,High,Antibiotics,582 mg/day,5 days
+P00482,37,Male,30.3,3,No,No,No,11.7,6.8,Total Pancreatectomy,259,546,No,8.2,6.6,None,Medium,No Medication,0,0 days
+P00483,46,Male,21.2,3,No,Yes,No,12.8,7.2,Whipple,312,1393,No,10.9,10.9,Infection,High,Antibiotics,500 mg/day,7 days
+P00484,60,Female,25.6,2,Yes,Yes,No,14.9,4.0,Whipple,202,926,No,13.9,9.0,None,High,No Medication,0,0 days
+P00485,50,Male,30.6,2,No,No,Yes,12.0,7.8,Whipple,152,694,No,11.2,13.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00486,71,Female,29.0,3,No,Yes,Yes,15.6,10.3,Distal Pancreatectomy,217,917,No,15.2,16.3,Infection,High,Antibiotics,584 mg/day,10 days
+P00487,56,Male,26.1,4,No,Yes,No,13.0,6.6,Whipple,395,735,No,10.9,7.9,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00488,63,Female,26.9,4,No,Yes,No,14.2,8.3,Distal Pancreatectomy,538,1385,No,12.2,11.5,Infection,High,Antibiotics,558 mg/day,5 days
+P00489,48,Female,25.6,2,Yes,No,No,13.5,5.3,Distal Pancreatectomy,287,1488,No,12.5,7.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00490,62,Male,22.5,2,Yes,No,No,13.5,6.8,Whipple,457,1172,No,11.0,10.0,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00491,39,Female,26.5,4,No,Yes,No,11.3,3.9,Whipple,501,1241,No,8.6,4.4,Infection,High,Antibiotics,554 mg/day,7 days
+P00492,81,Male,28.3,3,Yes,No,No,12.4,8.6,Distal Pancreatectomy,436,874,No,11.3,13.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00493,83,Male,31.1,4,No,Yes,No,14.4,7.3,Whipple,215,1072,Yes,13.0,12.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00494,64,Male,27.5,2,Yes,Yes,No,12.6,4.6,Distal Pancreatectomy,496,496,No,9.1,7.0,None,High,Pain Management,300 mg/day,1 days
+P00495,80,Female,29.4,3,Yes,No,No,13.2,5.4,Whipple,474,782,No,11.7,6.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00496,39,Female,20.4,3,No,No,No,11.1,7.1,Distal Pancreatectomy,304,1150,Yes,8.4,7.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00497,46,Male,24.9,3,No,No,Yes,12.4,8.8,Total Pancreatectomy,236,810,Yes,10.7,12.7,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00498,50,Male,18.1,2,No,Yes,No,14.3,10.0,Total Pancreatectomy,182,1495,No,11.5,11.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00499,60,Female,21.7,1,No,No,No,11.5,6.7,Whipple,217,1220,Yes,8.7,12.1,Infection,High,Antibiotics,500 mg/day,5 days
+P00500,60,Male,28.9,3,Yes,No,No,13.9,4.3,Whipple,336,628,No,11.5,8.2,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00501,82,Male,32.9,2,No,No,Yes,13.2,7.5,Distal Pancreatectomy,341,784,No,10.2,11.2,Infection,High,Antibiotics,630 mg/day,7 days
+P00502,55,Female,19.5,3,No,Yes,No,12.7,10.6,Whipple,362,712,Yes,9.4,13.7,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00503,73,Male,24.0,4,Yes,No,No,12.7,3.8,Whipple,237,285,Yes,10.5,3.6,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00504,70,Female,30.0,2,No,No,No,12.4,5.1,Total Pancreatectomy,500,795,No,11.3,10.7,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00505,67,Male,21.1,3,No,Yes,No,12.5,8.2,Whipple,257,314,No,10.9,11.8,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,5 days
+P00506,64,Female,26.3,2,No,No,No,14.1,7.3,Whipple,389,1374,No,11.4,13.3,Infection,High,Antibiotics,551 mg/day,7 days
+P00507,71,Male,29.0,3,Yes,Yes,No,12.5,5.9,Whipple,365,315,No,10.1,8.9,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00508,57,Male,27.2,4,Yes,No,No,15.2,7.4,Distal Pancreatectomy,326,128,No,14.3,11.5,Infection,High,Antibiotics,562 mg/day,7 days
+P00509,44,Female,20.8,2,Yes,No,No,13.4,9.0,Distal Pancreatectomy,202,201,No,12.9,8.9,Infection,Low,Antibiotics,500 mg/day,10 days
+P00510,39,Male,23.3,1,No,No,No,12.3,6.8,Whipple,479,222,No,9.8,10.4,None,Low,No Medication,0,0 days
+P00511,70,Female,29.8,2,No,No,No,14.2,6.6,Whipple,198,153,No,13.1,11.1,Organ Failure,Medium,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00512,68,Male,26.3,2,Yes,No,No,13.7,8.2,Whipple,518,1406,No,11.8,12.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00513,65,Female,18.1,3,No,Yes,No,11.0,6.5,Distal Pancreatectomy,263,1240,Yes,8.3,11.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00514,44,Female,29.4,4,No,Yes,No,11.8,9.3,Whipple,244,715,No,9.7,10.3,None,High,No Medication,0,0 days
+P00515,53,Female,18.5,2,No,No,No,12.9,11.1,Total Pancreatectomy,174,656,No,12.3,16.9,Infection,Medium,Antibiotics,500 mg/day,5 days
+P00516,66,Female,29.2,2,No,Yes,No,11.1,5.2,Whipple,281,213,No,10.2,11.2,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00517,35,Male,21.0,2,Yes,Yes,No,15.5,4.5,Total Pancreatectomy,328,954,Yes,14.5,4.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00518,39,Male,32.4,3,No,No,No,14.0,7.7,Whipple,294,775,No,12.9,13.3,Infection,High,Antibiotics,624 mg/day,5 days
+P00519,79,Female,23.5,1,No,Yes,No,13.0,4.4,Distal Pancreatectomy,513,1076,Yes,10.9,5.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00520,38,Female,22.9,3,No,Yes,No,12.6,4.4,Whipple,347,800,No,10.7,8.4,None,Medium,Pain Management,100 mg/day,2 days
+P00521,50,Female,20.2,3,No,No,No,12.3,2.9,Whipple,474,1416,Yes,11.3,4.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00522,58,Male,22.6,3,Yes,Yes,Yes,10.6,6.2,Total Pancreatectomy,233,1318,No,10.1,12.0,Infection,High,Antibiotics,507 mg/day,5 days
+P00523,50,Male,31.1,2,No,No,No,10.9,6.9,Total Pancreatectomy,306,391,Yes,10.1,7.1,None,Medium,Pain Management,100 mg/day,2 days
+P00524,36,Male,32.9,3,Yes,No,No,15.3,6.0,Whipple,234,360,No,11.8,8.7,None,Medium,Pain Management,100 mg/day,1 days
+P00525,83,Male,23.5,2,No,No,No,14.9,9.8,Distal Pancreatectomy,402,1330,Yes,13.1,12.1,Infection,High,Antibiotics,518 mg/day,7 days
+P00526,62,Female,24.7,2,No,Yes,No,12.3,9.6,Distal Pancreatectomy,524,663,No,9.2,11.2,None,High,No Medication,0,0 days
+P00527,66,Female,28.8,4,Yes,No,No,14.1,10.9,Total Pancreatectomy,221,148,Yes,11.1,14.6,Organ Failure,High,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00528,61,Female,31.3,3,No,No,Yes,13.6,7.1,Whipple,372,1129,Yes,11.7,7.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00529,54,Male,26.9,1,Yes,No,No,13.7,9.4,Distal Pancreatectomy,425,478,No,11.1,13.6,Infection,Medium,Antibiotics,558 mg/day,7 days
+P00530,58,Male,23.9,2,No,Yes,No,11.3,7.6,Whipple,432,323,No,10.4,13.5,Infection,Medium,Antibiotics,522 mg/day,10 days
+P00531,46,Male,24.2,2,No,No,No,10.8,7.4,Whipple,413,1146,Yes,8.3,12.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00532,84,Female,28.4,2,No,No,No,14.4,6.1,Total Pancreatectomy,395,1107,Yes,13.2,11.2,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00533,69,Female,18.0,2,No,No,Yes,10.6,2.5,Whipple,490,756,Yes,7.6,4.3,None,High,No Medication,0,0 days
+P00534,67,Male,27.3,2,No,No,No,12.8,8.3,Whipple,210,209,No,12.2,9.9,None,Low,No Medication,0,0 days
+P00535,67,Female,23.3,3,No,No,No,12.6,9.3,Distal Pancreatectomy,408,823,No,9.8,12.2,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P00536,77,Male,29.9,3,No,No,No,12.4,3.9,Distal Pancreatectomy,156,652,No,11.8,3.7,Infection,High,Antibiotics,594 mg/day,10 days
+P00537,71,Male,19.4,3,No,Yes,Yes,13.4,7.0,Whipple,337,1295,Yes,10.3,12.6,None,High,No Medication,0,0 days
+P00538,46,Female,26.8,3,Yes,No,No,12.2,9.0,Whipple,153,1105,No,10.9,9.4,None,High,No Medication,0,0 days
+P00539,37,Male,25.2,2,No,Yes,Yes,13.5,6.3,Total Pancreatectomy,380,797,Yes,11.1,11.7,None,High,Pain Management,100 mg/day,2 days
+P00540,35,Female,27.6,4,Yes,Yes,No,13.2,9.4,Whipple,282,825,Yes,11.3,9.4,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00541,67,Male,19.0,3,No,Yes,No,15.5,6.7,Distal Pancreatectomy,274,405,No,14.0,11.5,Infection,High,Antibiotics,500 mg/day,7 days
+P00542,74,Female,26.7,3,Yes,No,No,11.3,5.9,Distal Pancreatectomy,164,1058,No,8.9,6.4,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,7 days
+P00543,44,Female,26.4,3,Yes,Yes,No,13.0,9.5,Whipple,162,1053,Yes,9.7,9.2,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00544,77,Female,26.4,4,No,No,No,13.5,5.1,Total Pancreatectomy,267,1274,No,13.1,9.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00545,78,Male,27.1,3,No,No,No,12.7,5.6,Distal Pancreatectomy,389,720,No,9.5,6.9,None,High,Pain Management,200 mg/day,2 days
+P00546,63,Male,28.1,2,No,Yes,Yes,11.4,5.2,Whipple,412,729,No,9.2,9.3,None,High,No Medication,0,0 days
+P00547,47,Female,30.1,3,Yes,Yes,No,14.5,4.7,Distal Pancreatectomy,509,976,No,11.6,7.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00548,46,Female,22.0,3,No,Yes,No,13.4,7.3,Distal Pancreatectomy,155,655,No,11.9,7.5,None,Medium,Pain Management,300 mg/day,1 days
+P00549,65,Male,30.4,3,No,No,Yes,11.5,6.0,Distal Pancreatectomy,469,166,No,9.7,11.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00550,80,Male,25.5,3,No,No,No,13.5,8.0,Total Pancreatectomy,380,1279,No,10.4,10.4,Infection,High,Antibiotics,542 mg/day,7 days
+P00551,36,Male,19.2,2,Yes,No,No,15.0,3.5,Whipple,179,934,No,13.4,7.8,Organ Failure,Medium,IV Fluids + Vasopressors,2.3 L/day,3 days
+P00552,84,Female,18.9,2,No,Yes,Yes,13.0,4.8,Whipple,171,305,Yes,11.0,7.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00553,69,Male,23.0,4,Yes,No,Yes,13.0,7.1,Whipple,305,885,No,12.6,10.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00554,57,Male,29.8,3,No,No,No,14.9,9.9,Whipple,267,254,Yes,14.1,11.4,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00555,51,Female,28.6,3,No,No,No,11.8,7.8,Whipple,489,1197,Yes,9.4,8.6,None,High,No Medication,0,0 days
+P00556,60,Male,29.8,2,No,No,No,15.1,5.8,Total Pancreatectomy,538,1172,No,12.5,8.8,None,Medium,No Medication,0,0 days
+P00557,42,Male,25.8,2,No,Yes,No,14.2,4.0,Distal Pancreatectomy,342,882,Yes,12.0,6.4,None,High,No Medication,0,0 days
+P00558,63,Male,24.6,4,No,Yes,No,11.9,5.7,Distal Pancreatectomy,495,684,No,11.1,7.7,None,High,Pain Management,300 mg/day,3 days
+P00559,60,Female,20.2,3,No,Yes,Yes,12.2,6.9,Distal Pancreatectomy,344,807,No,10.5,10.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00560,44,Female,22.9,3,No,Yes,No,12.4,2.3,Distal Pancreatectomy,317,278,No,11.0,6.3,None,Medium,Pain Management,300 mg/day,2 days
+P00561,60,Female,24.5,3,No,Yes,No,10.8,4.6,Whipple,526,1171,Yes,8.9,4.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00562,68,Female,19.3,3,No,Yes,No,13.3,5.5,Total Pancreatectomy,388,1195,Yes,10.2,7.2,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,3 days
+P00563,75,Female,21.3,2,No,Yes,No,11.9,6.5,Whipple,511,212,No,9.1,8.7,None,High,Pain Management,200 mg/day,2 days
+P00564,41,Female,27.0,3,No,No,No,13.4,6.9,Total Pancreatectomy,393,856,No,12.8,7.0,Infection,Medium,Antibiotics,560 mg/day,7 days
+P00565,38,Female,29.0,2,No,No,Yes,11.5,5.8,Distal Pancreatectomy,218,996,Yes,8.4,6.8,None,High,Pain Management,200 mg/day,1 days
+P00566,84,Male,33.0,2,No,No,Yes,14.1,8.0,Whipple,244,920,No,12.3,7.8,Infection,High,Antibiotics,632 mg/day,7 days
+P00567,79,Male,32.0,3,No,No,No,13.9,7.2,Distal Pancreatectomy,226,258,No,11.2,13.2,Infection,High,Antibiotics,620 mg/day,7 days
+P00568,45,Female,27.6,4,Yes,Yes,No,12.2,6.3,Distal Pancreatectomy,320,885,Yes,11.5,10.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00569,63,Male,24.3,2,No,No,No,13.4,8.3,Whipple,150,1153,No,11.0,8.4,Infection,Medium,Antibiotics,527 mg/day,7 days
+P00570,70,Male,27.5,3,No,Yes,No,13.1,8.1,Distal Pancreatectomy,211,1220,No,12.0,7.7,None,High,No Medication,0,0 days
+P00571,59,Female,29.8,2,Yes,No,No,14.8,4.1,Whipple,356,350,No,13.1,8.3,None,Medium,No Medication,0,0 days
+P00572,55,Male,19.8,2,Yes,Yes,No,11.8,6.9,Whipple,303,1215,No,11.4,9.3,None,High,No Medication,0,0 days
+P00573,70,Male,24.1,1,No,No,Yes,12.8,8.8,Total Pancreatectomy,423,212,No,12.0,13.4,None,Medium,Pain Management,200 mg/day,3 days
+P00574,44,Male,30.6,2,No,Yes,Yes,12.2,9.1,Distal Pancreatectomy,197,358,No,11.6,14.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00575,71,Male,23.8,3,No,Yes,No,13.1,7.7,Total Pancreatectomy,286,206,No,12.0,11.1,None,High,Pain Management,200 mg/day,3 days
+P00576,43,Male,26.6,2,Yes,No,No,13.6,6.5,Distal Pancreatectomy,150,674,No,13.0,7.2,None,Medium,No Medication,0,0 days
+P00577,58,Female,26.8,3,No,Yes,No,12.2,7.8,Whipple,384,1090,No,9.7,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00578,69,Female,20.8,4,Yes,No,No,12.6,8.6,Distal Pancreatectomy,405,1481,No,12.2,14.3,Infection,High,Antibiotics,500 mg/day,10 days
+P00579,83,Female,23.4,2,No,No,No,14.2,7.2,Distal Pancreatectomy,256,1322,Yes,11.9,10.5,None,High,Pain Management,300 mg/day,2 days
+P00580,69,Male,23.0,3,Yes,No,No,14.6,7.5,Total Pancreatectomy,322,526,No,13.8,11.4,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,3 days
+P00581,82,Female,18.4,2,Yes,No,No,13.6,6.5,Whipple,279,958,No,10.3,8.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00582,70,Male,18.4,3,Yes,No,Yes,12.8,4.3,Total Pancreatectomy,443,1017,No,9.5,6.3,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,5 days
+P00583,52,Male,30.5,2,No,Yes,No,12.7,6.7,Total Pancreatectomy,189,1243,No,11.7,11.0,Infection,High,Antibiotics,602 mg/day,7 days
+P00584,83,Male,22.1,2,Yes,No,No,13.7,5.6,Distal Pancreatectomy,487,1432,No,11.4,11.1,Infection,High,Antibiotics,501 mg/day,5 days
+P00585,73,Male,25.8,2,No,No,Yes,13.3,5.7,Total Pancreatectomy,165,726,No,12.9,9.3,Infection,High,Antibiotics,545 mg/day,7 days
+P00586,66,Female,22.5,2,No,No,No,11.0,9.9,Whipple,276,574,No,7.7,14.5,Infection,High,Antibiotics,506 mg/day,5 days
+P00587,58,Female,32.1,2,No,Yes,No,13.7,8.9,Total Pancreatectomy,522,651,Yes,11.7,9.5,None,High,Pain Management,200 mg/day,3 days
+P00588,57,Male,21.9,3,No,No,No,12.0,3.6,Distal Pancreatectomy,498,443,No,11.6,4.5,None,Medium,No Medication,0,0 days
+P00589,66,Female,24.4,4,No,No,No,11.3,4.8,Whipple,352,727,No,9.9,7.8,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00590,71,Male,31.1,3,Yes,No,No,11.0,6.3,Total Pancreatectomy,283,235,No,10.5,6.9,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,5 days
+P00591,46,Female,30.6,3,No,Yes,Yes,12.7,5.7,Whipple,408,376,No,11.1,9.3,None,High,Pain Management,300 mg/day,3 days
+P00592,83,Female,20.8,2,Yes,Yes,No,11.8,7.6,Whipple,163,130,No,9.4,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00593,47,Male,30.0,2,Yes,Yes,No,10.2,4.5,Distal Pancreatectomy,215,346,No,8.4,9.1,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,7 days
+P00594,57,Female,24.9,2,No,No,No,12.6,8.9,Whipple,500,510,No,11.1,13.7,Infection,Medium,Antibiotics,534 mg/day,7 days
+P00595,59,Male,25.2,2,No,No,No,12.4,6.9,Whipple,491,126,Yes,11.7,9.4,None,Medium,No Medication,0,0 days
+P00596,69,Female,20.0,3,No,No,No,12.8,6.3,Distal Pancreatectomy,344,172,Yes,11.7,7.0,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00597,75,Male,19.2,3,No,Yes,No,12.2,7.0,Whipple,263,1220,No,11.6,10.7,Infection,High,Antibiotics,500 mg/day,7 days
+P00598,64,Male,28.9,2,No,Yes,No,15.2,6.2,Whipple,308,772,No,12.3,12.2,Infection,High,Antibiotics,582 mg/day,7 days
+P00599,51,Female,25.4,2,Yes,No,No,13.6,2.9,Whipple,310,1469,Yes,12.9,6.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,3 days
+P00600,83,Female,24.6,3,Yes,No,No,12.4,7.0,Whipple,403,575,Yes,10.2,6.7,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00601,54,Male,28.9,3,Yes,No,No,12.9,6.4,Distal Pancreatectomy,534,1423,No,11.5,6.0,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00602,82,Female,29.5,2,Yes,Yes,No,14.7,5.1,Distal Pancreatectomy,164,1422,No,13.7,6.7,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,7 days
+P00603,59,Female,20.4,4,No,No,No,14.1,9.2,Total Pancreatectomy,186,386,No,11.8,10.0,None,Medium,Pain Management,300 mg/day,1 days
+P00604,56,Male,27.2,4,No,Yes,No,11.3,8.3,Distal Pancreatectomy,304,311,No,9.5,13.1,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P00605,47,Male,20.0,2,Yes,No,No,11.8,11.9,Whipple,176,1199,No,10.2,16.9,None,High,Pain Management,300 mg/day,2 days
+P00606,53,Female,29.3,2,No,Yes,No,12.1,8.7,Total Pancreatectomy,161,500,No,9.9,9.9,None,Medium,No Medication,0,0 days
+P00607,83,Male,27.9,3,No,No,No,12.5,5.7,Distal Pancreatectomy,216,754,No,10.6,7.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00608,70,Male,32.3,4,Yes,Yes,No,12.3,5.2,Distal Pancreatectomy,179,1157,No,11.0,6.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00609,46,Male,19.0,4,Yes,No,No,13.0,6.0,Distal Pancreatectomy,245,597,Yes,10.9,11.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00610,75,Female,18.9,2,Yes,No,Yes,13.9,5.7,Total Pancreatectomy,364,947,No,11.5,8.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00611,53,Female,22.2,2,Yes,No,No,14.1,7.2,Distal Pancreatectomy,343,1451,Yes,13.7,11.0,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00612,46,Male,21.9,3,Yes,Yes,Yes,12.6,3.9,Whipple,284,197,Yes,10.8,6.1,Infection,High,Antibiotics,500 mg/day,10 days
+P00613,43,Female,21.7,3,No,Yes,Yes,11.0,8.3,Distal Pancreatectomy,439,465,No,10.5,11.9,Infection,High,Antibiotics,500 mg/day,7 days
+P00614,41,Male,31.6,2,Yes,Yes,No,11.8,7.2,Whipple,181,562,No,10.9,9.2,Organ Failure,Medium,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00615,62,Female,21.7,4,No,No,No,12.4,8.1,Whipple,522,127,No,10.3,9.8,None,Medium,Pain Management,300 mg/day,1 days
+P00616,48,Male,22.1,3,No,Yes,No,11.5,4.7,Whipple,188,812,No,8.4,8.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00617,65,Male,29.4,3,No,No,No,14.4,7.5,Whipple,501,372,No,11.3,10.8,Infection,Medium,Antibiotics,588 mg/day,7 days
+P00618,53,Female,24.7,4,No,No,No,11.6,9.6,Whipple,355,925,No,11.1,11.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00619,81,Male,29.7,3,Yes,No,No,13.7,5.3,Whipple,536,1250,Yes,12.1,5.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00620,50,Female,19.0,2,No,Yes,No,11.0,5.2,Distal Pancreatectomy,192,301,No,8.8,7.1,None,Medium,Pain Management,100 mg/day,1 days
+P00621,39,Female,25.3,3,No,No,No,13.8,8.4,Distal Pancreatectomy,486,1410,Yes,13.0,10.6,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00622,69,Male,18.5,2,Yes,Yes,No,12.8,5.1,Total Pancreatectomy,408,549,No,10.1,8.7,None,High,No Medication,0,0 days
+P00623,46,Male,18.9,3,Yes,No,Yes,14.8,6.5,Whipple,398,1211,Yes,12.1,11.9,Infection,High,Antibiotics,500 mg/day,7 days
+P00624,59,Female,31.6,2,No,No,Yes,11.6,10.0,Distal Pancreatectomy,223,1441,No,8.4,9.7,None,High,Pain Management,300 mg/day,2 days
+P00625,55,Male,20.1,3,No,Yes,No,12.3,5.3,Total Pancreatectomy,522,118,No,12.0,6.4,Infection,Medium,Antibiotics,500 mg/day,7 days
+P00626,70,Male,26.0,2,No,Yes,No,12.6,10.1,Whipple,468,1230,No,11.6,10.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00627,57,Male,24.2,2,No,No,Yes,12.8,6.3,Distal Pancreatectomy,516,410,No,9.9,9.1,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P00628,50,Male,23.2,2,No,No,No,12.6,4.8,Distal Pancreatectomy,445,511,No,10.2,7.1,Infection,Low,Antibiotics,514 mg/day,10 days
+P00629,73,Male,31.5,1,Yes,Yes,No,12.6,8.2,Whipple,423,841,No,9.4,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00630,79,Female,18.3,3,Yes,No,No,12.6,7.2,Total Pancreatectomy,472,723,No,12.1,8.3,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00631,76,Female,28.0,3,Yes,Yes,No,10.5,7.0,Distal Pancreatectomy,508,831,No,8.3,10.4,Infection,High,Antibiotics,572 mg/day,7 days
+P00632,73,Male,32.5,3,Yes,Yes,No,14.2,5.5,Whipple,339,734,Yes,12.1,10.7,Infection,High,Antibiotics,626 mg/day,7 days
+P00633,48,Male,26.4,2,No,No,No,16.4,7.2,Whipple,287,597,Yes,16.0,12.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00634,65,Male,32.1,2,No,No,No,13.4,2.9,Whipple,451,343,Yes,11.5,8.6,None,Medium,Pain Management,100 mg/day,3 days
+P00635,39,Female,18.8,1,No,No,No,11.6,7.4,Whipple,460,789,Yes,9.3,11.9,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00636,69,Male,24.3,2,Yes,Yes,No,11.8,9.6,Distal Pancreatectomy,480,676,No,10.9,15.0,Infection,High,Antibiotics,527 mg/day,5 days
+P00637,57,Female,21.9,4,No,No,No,13.7,3.5,Distal Pancreatectomy,502,614,Yes,12.5,4.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00638,63,Female,29.0,2,Yes,Yes,Yes,13.5,6.2,Whipple,431,306,Yes,11.2,7.0,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P00639,77,Female,32.7,2,Yes,Yes,No,12.7,5.3,Total Pancreatectomy,315,1047,Yes,10.9,4.8,Organ Failure,High,IV Fluids + Vasopressors,1.1 L/day,3 days
+P00640,45,Male,21.8,2,Yes,No,No,13.9,4.0,Whipple,427,493,No,10.9,8.1,Organ Failure,Medium,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00641,52,Female,27.8,2,No,Yes,No,10.5,2.9,Whipple,175,1144,No,9.1,8.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00642,81,Male,21.0,3,No,No,No,13.9,4.6,Whipple,222,1466,No,12.7,5.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00643,46,Female,26.5,3,No,No,Yes,13.3,6.5,Distal Pancreatectomy,264,817,No,9.8,10.1,Infection,High,Antibiotics,554 mg/day,7 days
+P00644,43,Male,25.0,2,No,Yes,No,11.8,9.3,Whipple,200,301,Yes,8.6,13.7,Infection,High,Antibiotics,536 mg/day,5 days
+P00645,44,Female,32.6,2,No,Yes,No,11.3,4.0,Whipple,518,219,No,10.9,9.5,Organ Failure,Low,IV Fluids + Vasopressors,1.1 L/day,5 days
+P00646,78,Male,27.1,2,Yes,Yes,No,13.1,7.6,Whipple,320,488,No,10.3,11.3,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00647,51,Female,23.2,2,Yes,Yes,Yes,14.7,7.4,Distal Pancreatectomy,417,333,Yes,14.0,13.2,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,3 days
+P00648,72,Male,19.7,2,Yes,No,No,12.7,10.3,Total Pancreatectomy,152,701,No,12.3,12.0,None,High,Pain Management,100 mg/day,1 days
+P00649,41,Male,20.3,4,No,No,No,12.0,8.1,Whipple,359,1443,No,10.8,9.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P00650,80,Male,21.4,3,No,Yes,Yes,13.2,8.3,Whipple,525,811,No,12.0,11.3,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,3 days
+P00651,47,Male,21.8,3,Yes,Yes,No,15.2,8.4,Distal Pancreatectomy,539,1081,No,12.3,10.4,Infection,High,Antibiotics,500 mg/day,5 days
+P00652,74,Female,30.8,2,No,No,No,13.5,5.2,Distal Pancreatectomy,487,1303,Yes,10.9,4.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00653,76,Female,26.4,2,No,No,Yes,13.6,5.9,Whipple,450,956,Yes,10.2,10.2,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P00654,43,Male,25.9,3,Yes,Yes,Yes,14.5,9.2,Total Pancreatectomy,532,1491,Yes,11.9,13.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00655,84,Female,19.7,3,No,Yes,Yes,13.6,2.9,Distal Pancreatectomy,491,175,Yes,12.0,7.3,Organ Failure,High,IV Fluids + Vasopressors,2.8 L/day,5 days
+P00656,61,Male,30.9,3,No,No,No,12.1,5.6,Whipple,264,748,Yes,9.6,7.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00657,36,Male,28.8,2,No,Yes,Yes,10.9,4.3,Distal Pancreatectomy,316,749,No,7.4,7.2,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00658,39,Female,19.0,3,Yes,Yes,No,11.9,7.5,Total Pancreatectomy,414,595,Yes,9.3,9.3,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00659,63,Male,28.6,2,No,No,No,11.7,6.2,Distal Pancreatectomy,376,1324,No,9.0,5.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00660,71,Male,26.2,4,Yes,No,No,13.8,8.3,Whipple,300,929,No,10.5,11.5,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,7 days
+P00661,72,Female,19.2,3,No,No,Yes,14.0,6.8,Whipple,417,1469,No,13.3,7.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00662,53,Male,24.9,3,No,No,No,13.2,3.9,Whipple,265,582,No,10.6,3.9,None,Medium,No Medication,0,0 days
+P00663,42,Male,25.3,2,No,No,No,11.5,4.0,Whipple,237,1342,No,8.5,8.4,None,High,Pain Management,100 mg/day,3 days
+P00664,82,Male,20.5,3,No,Yes,No,15.1,7.0,Distal Pancreatectomy,467,1183,No,11.7,6.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00665,79,Male,32.2,2,No,Yes,No,12.5,5.5,Distal Pancreatectomy,391,1090,No,11.5,11.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00666,35,Female,30.7,2,No,Yes,Yes,13.7,5.9,Distal Pancreatectomy,509,718,No,11.8,8.7,Organ Failure,Medium,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00667,56,Female,28.0,2,Yes,Yes,No,13.1,8.9,Total Pancreatectomy,478,649,No,10.6,14.8,Infection,High,Antibiotics,572 mg/day,10 days
+P00668,51,Female,24.9,3,No,No,No,13.3,8.5,Whipple,482,745,Yes,12.2,8.4,Infection,High,Antibiotics,534 mg/day,7 days
+P00669,41,Male,24.2,2,Yes,No,No,13.7,10.6,Total Pancreatectomy,189,1344,No,11.5,13.9,Infection,High,Antibiotics,526 mg/day,10 days
+P00670,59,Male,27.8,2,No,No,No,12.2,6.4,Distal Pancreatectomy,331,601,No,11.1,8.2,Infection,Medium,Antibiotics,569 mg/day,7 days
+P00671,79,Female,26.2,4,No,No,No,14.6,5.7,Whipple,358,1256,No,13.2,10.7,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00672,38,Male,18.9,2,No,Yes,Yes,11.1,7.8,Distal Pancreatectomy,422,945,Yes,9.4,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00673,70,Male,25.7,3,No,Yes,No,11.8,5.9,Whipple,268,152,No,9.8,7.1,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,7 days
+P00674,40,Male,30.1,2,No,No,No,14.6,5.9,Distal Pancreatectomy,531,549,No,12.9,11.0,Infection,Low,Antibiotics,597 mg/day,10 days
+P00675,65,Male,24.9,1,Yes,No,Yes,13.7,6.6,Distal Pancreatectomy,173,161,Yes,11.8,8.5,None,Medium,Pain Management,100 mg/day,3 days
+P00676,53,Female,18.8,3,No,No,No,16.0,10.3,Whipple,407,1146,No,14.7,9.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00677,78,Female,29.8,2,No,No,No,13.1,8.4,Distal Pancreatectomy,241,143,No,12.3,10.4,Infection,Medium,Antibiotics,593 mg/day,10 days
+P00678,73,Female,21.0,3,Yes,No,No,15.0,8.6,Distal Pancreatectomy,310,919,No,14.5,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00679,61,Male,21.9,3,Yes,No,Yes,10.8,10.2,Whipple,298,758,No,9.9,11.4,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00680,44,Female,20.5,3,No,Yes,No,11.3,8.8,Whipple,266,827,No,9.1,11.1,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,3 days
+P00681,60,Female,23.0,3,No,No,No,14.1,4.7,Whipple,202,951,No,11.3,4.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,3 days
+P00682,53,Male,29.4,2,No,No,No,10.9,8.8,Distal Pancreatectomy,451,146,Yes,10.1,12.1,Organ Failure,Medium,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00683,73,Male,25.8,1,No,Yes,Yes,12.8,9.0,Total Pancreatectomy,194,919,No,12.2,13.4,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,7 days
+P00684,37,Female,21.1,3,Yes,No,No,14.4,8.3,Total Pancreatectomy,414,1147,No,11.7,10.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00685,79,Female,31.2,3,No,Yes,No,13.6,6.6,Distal Pancreatectomy,411,188,No,12.3,8.8,None,High,Pain Management,200 mg/day,3 days
+P00686,47,Female,31.2,3,No,No,No,13.0,8.1,Distal Pancreatectomy,456,1297,No,9.7,8.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00687,84,Female,31.1,3,No,Yes,No,12.5,7.0,Whipple,383,1242,Yes,9.9,7.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00688,62,Male,21.6,3,No,No,Yes,13.2,5.0,Distal Pancreatectomy,524,834,No,11.9,5.5,None,High,Pain Management,100 mg/day,3 days
+P00689,54,Female,24.8,3,No,Yes,Yes,13.7,5.5,Whipple,184,277,No,12.5,8.1,None,High,No Medication,0,0 days
+P00690,62,Female,32.8,2,No,No,No,12.2,8.4,Whipple,487,1118,Yes,10.2,11.3,None,High,No Medication,0,0 days
+P00691,42,Male,29.6,3,No,Yes,No,13.4,5.2,Distal Pancreatectomy,346,1465,Yes,12.8,10.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00692,75,Female,18.4,3,Yes,Yes,No,14.3,5.4,Whipple,174,1182,Yes,13.6,5.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00693,73,Male,19.0,2,No,No,No,12.7,8.5,Distal Pancreatectomy,351,1000,No,11.8,11.9,Infection,High,Antibiotics,500 mg/day,10 days
+P00694,35,Male,25.0,4,No,No,No,13.1,7.3,Distal Pancreatectomy,422,537,Yes,10.3,10.2,None,Medium,Pain Management,300 mg/day,2 days
+P00695,37,Male,31.6,4,No,Yes,No,13.6,8.2,Whipple,185,525,No,11.7,11.1,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00696,47,Female,26.1,3,Yes,Yes,No,13.7,4.5,Whipple,372,1067,No,13.4,9.7,Infection,High,Antibiotics,549 mg/day,10 days
+P00697,62,Female,25.5,2,No,No,No,14.1,8.1,Total Pancreatectomy,501,585,No,11.6,8.9,None,Medium,Pain Management,200 mg/day,2 days
+P00698,83,Male,19.6,2,Yes,No,No,11.8,5.7,Distal Pancreatectomy,426,1308,Yes,10.1,5.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00699,59,Female,27.9,3,No,No,No,12.4,5.0,Whipple,167,559,No,10.5,8.9,Infection,Medium,Antibiotics,570 mg/day,7 days
+P00700,67,Female,30.3,4,No,Yes,Yes,12.4,6.0,Whipple,337,1020,Yes,11.4,7.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00701,72,Male,23.7,2,No,No,No,11.9,9.7,Distal Pancreatectomy,406,1225,Yes,9.8,9.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00702,40,Male,29.6,2,Yes,Yes,No,10.8,6.3,Distal Pancreatectomy,291,1138,Yes,7.4,7.4,Infection,High,Antibiotics,591 mg/day,10 days
+P00703,78,Female,32.5,4,No,Yes,No,9.1,11.4,Whipple,285,847,No,8.6,12.9,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,5 days
+P00704,79,Male,21.1,2,No,No,No,14.4,2.9,Whipple,456,150,Yes,13.2,6.4,None,Medium,Pain Management,300 mg/day,3 days
+P00705,66,Female,25.8,3,No,No,No,11.1,3.9,Total Pancreatectomy,228,408,No,10.0,4.5,None,Medium,Pain Management,200 mg/day,2 days
+P00706,79,Female,22.3,4,No,No,No,14.9,9.6,Distal Pancreatectomy,441,1157,No,13.8,11.8,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00707,81,Female,29.9,2,No,Yes,No,13.9,10.2,Total Pancreatectomy,211,1104,No,12.4,12.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00708,55,Female,26.7,3,No,Yes,No,12.5,5.3,Distal Pancreatectomy,278,734,No,9.6,7.8,None,High,Pain Management,200 mg/day,2 days
+P00709,50,Male,27.5,2,Yes,Yes,Yes,13.7,7.1,Total Pancreatectomy,490,304,No,10.5,12.9,None,High,Pain Management,200 mg/day,3 days
+P00710,55,Male,30.0,2,Yes,No,No,13.5,8.4,Whipple,447,839,No,12.6,8.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00711,45,Male,23.9,3,No,Yes,No,11.7,6.5,Distal Pancreatectomy,406,1193,No,9.7,12.2,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00712,71,Male,31.7,2,No,Yes,No,13.0,7.3,Whipple,361,1353,Yes,10.7,10.6,Infection,High,Antibiotics,616 mg/day,7 days
+P00713,70,Female,26.0,4,No,Yes,Yes,11.8,7.0,Distal Pancreatectomy,203,632,Yes,9.8,11.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00714,69,Female,20.4,3,Yes,No,Yes,13.8,4.0,Whipple,324,207,No,12.1,6.3,None,High,Pain Management,200 mg/day,2 days
+P00715,53,Male,28.4,2,Yes,Yes,No,12.1,6.3,Whipple,249,975,No,11.2,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00716,54,Female,29.9,2,No,No,No,12.9,7.0,Total Pancreatectomy,188,1364,No,11.0,12.2,None,High,Pain Management,200 mg/day,2 days
+P00717,52,Female,22.8,2,Yes,Yes,Yes,12.8,7.2,Total Pancreatectomy,412,350,No,11.2,12.5,Infection,High,Antibiotics,509 mg/day,5 days
+P00718,81,Female,30.9,2,No,No,No,13.1,3.5,Whipple,299,234,No,10.3,4.6,None,Medium,No Medication,0,0 days
+P00719,75,Male,31.6,2,Yes,Yes,No,15.0,8.5,Distal Pancreatectomy,270,1213,No,12.3,9.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00720,83,Male,22.2,2,No,No,No,12.7,7.3,Whipple,327,788,No,12.0,10.0,None,Medium,No Medication,0,0 days
+P00721,48,Male,32.8,3,No,No,No,14.5,4.9,Whipple,450,1421,No,13.9,10.3,Infection,High,Antibiotics,629 mg/day,10 days
+P00722,49,Female,20.1,3,Yes,Yes,No,13.6,10.6,Distal Pancreatectomy,479,506,No,10.4,12.2,None,High,No Medication,0,0 days
+P00723,65,Male,21.0,3,No,No,No,14.7,6.3,Whipple,269,1431,No,12.7,10.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,3 days
+P00724,35,Male,20.8,3,Yes,No,No,12.6,6.4,Total Pancreatectomy,221,201,Yes,9.6,10.5,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00725,37,Male,31.4,1,No,No,No,13.8,8.3,Whipple,368,1484,No,13.3,12.9,Infection,Medium,Antibiotics,612 mg/day,7 days
+P00726,50,Male,27.8,2,No,No,No,12.9,10.8,Distal Pancreatectomy,451,792,Yes,10.9,14.0,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00727,57,Male,20.3,3,No,Yes,Yes,9.4,8.4,Distal Pancreatectomy,272,1416,Yes,7.4,10.5,Infection,High,Antibiotics,500 mg/day,10 days
+P00728,45,Male,24.6,3,No,Yes,No,11.7,8.7,Whipple,393,1269,No,8.6,14.5,Infection,High,Antibiotics,531 mg/day,7 days
+P00729,46,Female,27.2,1,No,Yes,No,13.7,5.0,Whipple,523,503,Yes,13.1,8.5,Infection,Medium,Antibiotics,562 mg/day,10 days
+P00730,44,Female,19.3,3,Yes,Yes,No,13.6,7.2,Distal Pancreatectomy,224,913,No,12.5,11.4,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P00731,66,Male,31.2,3,Yes,Yes,No,11.4,5.9,Distal Pancreatectomy,155,1125,Yes,9.8,7.6,None,High,No Medication,0,0 days
+P00732,50,Male,30.1,3,No,Yes,No,13.3,8.4,Whipple,170,1242,No,10.2,12.3,None,High,Pain Management,100 mg/day,2 days
+P00733,42,Female,25.6,2,No,Yes,Yes,13.6,8.6,Distal Pancreatectomy,339,954,Yes,10.3,9.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00734,72,Female,32.5,3,No,No,No,13.0,10.3,Whipple,374,1314,No,9.5,11.4,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00735,46,Male,24.3,3,No,Yes,No,13.9,2.7,Whipple,252,1126,Yes,10.5,6.8,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P00736,58,Male,32.8,3,No,Yes,No,13.7,5.7,Whipple,493,1041,No,13.4,8.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00737,62,Male,28.0,3,No,No,Yes,13.0,9.6,Whipple,248,1120,No,12.5,13.5,Infection,High,Antibiotics,572 mg/day,7 days
+P00738,42,Male,27.5,3,No,Yes,No,12.4,4.2,Distal Pancreatectomy,467,276,No,11.6,5.5,Infection,Medium,Antibiotics,566 mg/day,10 days
+P00739,62,Female,20.5,3,No,Yes,No,14.3,8.6,Distal Pancreatectomy,512,1380,Yes,12.9,12.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00740,70,Male,31.2,2,No,Yes,No,13.6,9.3,Total Pancreatectomy,232,972,Yes,10.6,11.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00741,60,Male,24.4,3,Yes,No,No,11.3,6.9,Distal Pancreatectomy,330,576,Yes,8.1,10.3,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00742,42,Male,20.4,3,Yes,No,No,13.3,4.2,Total Pancreatectomy,301,497,No,12.4,5.6,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00743,84,Male,18.2,3,Yes,Yes,Yes,11.6,6.8,Distal Pancreatectomy,205,319,No,9.3,11.0,Infection,High,Antibiotics,500 mg/day,7 days
+P00744,62,Female,26.4,2,Yes,No,No,11.8,9.9,Distal Pancreatectomy,339,272,No,8.6,14.6,Infection,High,Antibiotics,552 mg/day,7 days
+P00745,62,Female,25.9,2,Yes,No,Yes,12.2,10.1,Total Pancreatectomy,171,835,Yes,10.4,11.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00746,71,Female,28.8,4,No,No,No,13.1,7.4,Distal Pancreatectomy,217,601,No,12.5,8.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00747,75,Male,31.4,3,No,No,No,13.4,5.0,Whipple,334,860,No,11.6,8.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00748,70,Male,19.2,4,No,No,No,12.5,10.5,Distal Pancreatectomy,159,1383,No,11.0,14.5,None,High,Pain Management,100 mg/day,2 days
+P00749,61,Female,29.0,3,No,Yes,No,12.6,8.6,Total Pancreatectomy,215,230,No,10.5,12.7,Infection,High,Antibiotics,584 mg/day,7 days
+P00750,51,Male,20.8,3,Yes,Yes,No,12.4,5.2,Distal Pancreatectomy,413,1236,No,10.7,9.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00751,43,Male,30.9,3,Yes,No,No,14.3,7.7,Distal Pancreatectomy,374,897,Yes,13.9,9.8,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,3 days
+P00752,67,Female,30.3,4,Yes,No,No,9.6,7.6,Distal Pancreatectomy,272,898,Yes,6.1,9.7,Infection,High,Antibiotics,599 mg/day,7 days
+P00753,54,Female,26.1,3,No,No,No,12.6,5.7,Total Pancreatectomy,187,1029,Yes,10.6,6.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00754,47,Female,28.7,3,Yes,No,No,14.9,7.7,Whipple,272,822,No,13.1,8.2,Infection,High,Antibiotics,580 mg/day,7 days
+P00755,62,Female,22.7,2,Yes,No,Yes,13.6,9.2,Distal Pancreatectomy,467,1143,Yes,10.2,13.2,None,High,No Medication,0,0 days
+P00756,82,Male,25.1,3,No,Yes,No,14.5,6.4,Whipple,305,314,Yes,13.7,6.5,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P00757,63,Male,30.3,3,No,No,No,10.6,9.4,Distal Pancreatectomy,450,1433,No,9.7,15.0,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,5 days
+P00758,47,Female,24.9,2,Yes,No,Yes,11.5,3.5,Distal Pancreatectomy,470,1374,Yes,8.6,8.4,None,High,No Medication,0,0 days
+P00759,80,Male,23.4,2,No,No,No,13.6,11.4,Whipple,216,587,Yes,12.5,16.5,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00760,69,Female,25.4,2,No,No,No,14.9,7.1,Whipple,282,1394,No,12.0,12.5,Infection,High,Antibiotics,540 mg/day,7 days
+P00761,40,Female,30.4,2,No,No,Yes,11.6,9.1,Distal Pancreatectomy,511,1317,Yes,10.4,11.3,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00762,52,Male,23.0,2,No,Yes,No,12.5,7.4,Whipple,289,412,No,12.1,12.4,None,Medium,Pain Management,200 mg/day,3 days
+P00763,39,Female,20.6,2,Yes,No,No,13.5,5.4,Whipple,231,178,No,11.5,5.9,None,Low,No Medication,0,0 days
+P00764,81,Male,28.7,4,Yes,Yes,No,11.3,6.9,Distal Pancreatectomy,207,279,No,10.4,6.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00765,59,Male,30.4,3,No,No,Yes,13.6,3.2,Whipple,298,1103,No,10.9,7.8,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00766,36,Male,19.5,2,No,No,No,9.8,8.4,Whipple,280,774,Yes,7.4,8.4,None,Medium,No Medication,0,0 days
+P00767,44,Male,21.6,2,No,Yes,No,13.6,7.4,Total Pancreatectomy,218,113,No,10.3,13.3,Infection,Medium,Antibiotics,500 mg/day,7 days
+P00768,64,Female,20.1,3,No,No,No,11.8,6.6,Whipple,494,958,No,9.0,10.5,None,High,No Medication,0,0 days
+P00769,84,Male,23.2,2,No,Yes,No,12.5,8.5,Whipple,399,345,No,11.6,12.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P00770,79,Female,24.8,3,No,Yes,No,13.8,7.1,Distal Pancreatectomy,469,1137,No,10.9,8.2,None,High,No Medication,0,0 days
+P00771,39,Female,29.2,3,No,Yes,No,13.5,8.2,Distal Pancreatectomy,326,198,No,11.1,12.1,Organ Failure,Medium,IV Fluids + Vasopressors,2.0 L/day,7 days
+P00772,67,Female,27.8,3,No,No,No,13.0,8.9,Total Pancreatectomy,221,132,No,10.6,8.7,Infection,Medium,Antibiotics,569 mg/day,7 days
+P00773,35,Female,27.3,2,Yes,No,No,14.2,5.9,Total Pancreatectomy,166,356,No,11.2,10.8,Infection,Low,Antibiotics,563 mg/day,7 days
+P00774,52,Male,23.3,3,No,No,No,11.0,5.3,Distal Pancreatectomy,478,133,No,8.9,5.9,Organ Failure,Medium,IV Fluids + Vasopressors,2.3 L/day,7 days
+P00775,66,Male,30.6,2,Yes,Yes,No,13.2,3.6,Whipple,309,118,No,11.4,7.6,Organ Failure,Medium,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00776,81,Female,25.1,4,Yes,No,No,12.1,7.2,Whipple,219,1383,No,9.8,8.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00777,83,Female,32.7,3,No,No,Yes,14.1,7.9,Whipple,262,688,No,12.8,7.8,None,High,Pain Management,300 mg/day,3 days
+P00778,45,Male,27.5,2,Yes,Yes,No,13.8,4.4,Whipple,381,236,No,12.9,7.0,Infection,Medium,Antibiotics,566 mg/day,5 days
+P00779,55,Female,19.9,2,Yes,Yes,No,13.9,9.8,Distal Pancreatectomy,170,458,No,11.6,10.4,Infection,Medium,Antibiotics,500 mg/day,10 days
+P00780,60,Male,28.1,2,Yes,Yes,No,15.0,5.4,Distal Pancreatectomy,284,853,No,14.0,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00781,59,Female,22.9,3,No,No,No,14.4,2.8,Whipple,412,1239,Yes,13.8,3.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00782,56,Male,28.3,2,No,No,Yes,12.8,10.0,Distal Pancreatectomy,260,503,No,12.5,11.7,None,High,Pain Management,300 mg/day,3 days
+P00783,61,Female,19.0,3,No,No,No,13.0,3.1,Whipple,395,1325,Yes,10.8,6.3,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,7 days
+P00784,83,Female,20.6,2,Yes,Yes,Yes,13.7,8.9,Whipple,432,1499,No,12.2,10.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00785,47,Male,30.8,3,No,No,No,13.2,8.4,Distal Pancreatectomy,157,349,No,10.5,10.4,None,Low,No Medication,0,0 days
+P00786,67,Female,21.4,3,No,Yes,No,13.8,7.6,Whipple,433,545,Yes,12.3,12.4,Infection,High,Antibiotics,500 mg/day,7 days
+P00787,68,Female,30.6,3,Yes,Yes,No,10.3,6.0,Whipple,356,1053,No,8.4,6.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00788,75,Male,22.2,3,No,No,No,15.3,8.0,Whipple,343,377,No,13.7,8.0,Infection,Medium,Antibiotics,502 mg/day,7 days
+P00789,69,Female,27.6,2,Yes,Yes,No,13.1,9.1,Whipple,196,211,Yes,10.7,10.7,None,High,Pain Management,100 mg/day,2 days
+P00790,35,Male,28.4,2,No,No,No,11.1,5.0,Distal Pancreatectomy,491,845,No,9.7,7.3,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00791,55,Male,25.7,3,No,Yes,Yes,11.9,9.0,Total Pancreatectomy,391,787,No,8.5,12.0,Infection,High,Antibiotics,544 mg/day,5 days
+P00792,82,Female,22.6,2,No,No,Yes,10.4,8.9,Whipple,159,491,Yes,7.1,10.8,Infection,High,Antibiotics,507 mg/day,7 days
+P00793,40,Female,21.2,2,Yes,Yes,No,11.7,7.6,Whipple,519,1068,No,8.7,12.2,Organ Failure,High,IV Fluids + Vasopressors,2.8 L/day,5 days
+P00794,62,Female,18.5,1,No,No,No,12.8,5.9,Distal Pancreatectomy,438,242,No,9.6,5.7,Infection,Low,Antibiotics,500 mg/day,10 days
+P00795,51,Female,22.6,2,No,Yes,No,14.8,8.9,Total Pancreatectomy,280,1155,Yes,13.1,11.2,None,High,Pain Management,100 mg/day,2 days
+P00796,39,Female,27.8,1,No,Yes,No,13.5,8.0,Whipple,419,280,Yes,11.5,10.0,Infection,Low,Antibiotics,569 mg/day,7 days
+P00797,65,Female,32.1,4,No,No,No,13.3,5.0,Whipple,451,678,No,10.6,8.7,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00798,39,Female,31.1,2,No,Yes,No,11.6,6.3,Distal Pancreatectomy,210,897,No,9.1,12.1,Infection,High,Antibiotics,609 mg/day,7 days
+P00799,72,Male,29.5,3,Yes,No,No,12.0,8.6,Distal Pancreatectomy,313,368,No,8.8,11.4,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00800,37,Female,29.8,1,No,No,Yes,12.1,7.2,Whipple,162,1359,Yes,9.5,13.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00801,57,Male,28.0,3,No,Yes,Yes,12.2,9.2,Distal Pancreatectomy,421,1400,No,8.7,10.7,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00802,71,Female,21.9,2,No,Yes,No,12.6,6.3,Whipple,357,652,No,11.2,6.0,None,Medium,Pain Management,300 mg/day,1 days
+P00803,71,Female,31.6,4,Yes,No,No,12.7,5.0,Distal Pancreatectomy,395,732,No,9.7,5.6,Infection,High,Antibiotics,615 mg/day,10 days
+P00804,44,Male,28.1,4,No,No,No,12.6,11.4,Distal Pancreatectomy,282,374,No,10.1,13.5,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00805,44,Female,26.4,2,Yes,No,Yes,12.2,3.6,Total Pancreatectomy,393,842,No,9.7,5.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00806,53,Female,19.7,4,No,No,No,13.2,6.0,Whipple,443,185,No,11.9,6.1,None,Medium,Pain Management,300 mg/day,2 days
+P00807,51,Male,24.7,4,No,No,No,12.6,7.6,Whipple,187,1186,No,9.8,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00808,55,Female,24.9,3,No,Yes,No,11.1,9.0,Whipple,508,503,No,7.9,10.7,None,High,No Medication,0,0 days
+P00809,48,Female,31.0,3,Yes,No,No,13.0,8.3,Total Pancreatectomy,205,291,No,12.0,8.6,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00810,43,Female,26.2,2,No,No,No,12.9,11.6,Whipple,468,1416,No,10.6,13.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00811,80,Male,23.7,3,Yes,Yes,No,11.1,6.8,Whipple,525,1154,No,9.5,12.1,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00812,35,Female,32.7,2,Yes,Yes,Yes,12.3,5.3,Whipple,197,1453,No,8.8,6.8,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00813,79,Female,19.7,2,No,Yes,Yes,13.7,6.6,Distal Pancreatectomy,254,206,No,11.9,10.7,None,High,Pain Management,200 mg/day,1 days
+P00814,47,Female,24.3,4,No,Yes,No,11.6,6.4,Whipple,208,721,No,10.6,9.9,Infection,High,Antibiotics,527 mg/day,5 days
+P00815,38,Female,18.6,2,No,No,No,11.5,6.9,Whipple,226,375,No,10.0,9.2,Bleeding,Low,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00816,35,Male,29.1,3,No,Yes,No,12.6,5.0,Whipple,367,750,No,10.2,6.1,None,Medium,No Medication,0,0 days
+P00817,83,Male,31.8,3,No,Yes,No,13.7,8.6,Total Pancreatectomy,532,655,No,13.2,10.5,Organ Failure,High,IV Fluids + Vasopressors,1.1 L/day,3 days
+P00818,74,Female,22.2,4,No,Yes,No,15.2,7.7,Distal Pancreatectomy,204,1205,No,13.0,11.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00819,66,Female,30.9,4,Yes,No,Yes,13.8,4.5,Distal Pancreatectomy,204,1187,Yes,10.5,6.3,None,High,Pain Management,100 mg/day,1 days
+P00820,68,Male,22.4,2,No,No,No,14.3,8.9,Total Pancreatectomy,278,666,No,11.3,9.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00821,62,Male,31.7,1,No,Yes,No,13.4,5.4,Total Pancreatectomy,532,685,Yes,12.9,5.7,None,Medium,Pain Management,100 mg/day,1 days
+P00822,65,Female,29.3,2,Yes,Yes,No,12.2,4.6,Whipple,537,984,No,8.7,9.8,None,High,Pain Management,200 mg/day,3 days
+P00823,42,Male,30.1,2,Yes,No,No,13.8,7.2,Total Pancreatectomy,234,228,No,11.3,9.6,Infection,Low,Antibiotics,597 mg/day,7 days
+P00824,73,Female,18.3,1,No,No,No,12.9,3.5,Whipple,363,355,Yes,12.1,7.1,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00825,60,Male,32.4,2,Yes,Yes,Yes,13.5,8.2,Whipple,264,1033,No,13.2,10.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00826,68,Male,28.9,3,Yes,Yes,No,11.9,1.3,Total Pancreatectomy,463,330,No,11.1,6.5,Infection,High,Antibiotics,582 mg/day,10 days
+P00827,37,Male,22.6,3,Yes,Yes,No,13.6,4.9,Whipple,442,1260,No,10.6,8.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00828,84,Male,30.4,2,No,Yes,No,12.9,10.2,Whipple,198,962,No,12.5,12.8,Infection,High,Antibiotics,600 mg/day,7 days
+P00829,46,Female,22.2,3,No,No,Yes,13.3,5.6,Whipple,216,454,Yes,12.3,11.1,Infection,High,Antibiotics,502 mg/day,7 days
+P00830,35,Male,31.1,2,Yes,No,No,12.9,6.0,Distal Pancreatectomy,424,245,No,10.2,10.2,None,Low,Pain Management,100 mg/day,3 days
+P00831,78,Male,19.7,1,No,No,No,12.7,9.5,Whipple,278,1156,Yes,10.5,9.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00832,39,Female,28.6,3,No,No,No,13.6,5.4,Distal Pancreatectomy,178,359,No,10.8,6.1,Organ Failure,Low,IV Fluids + Vasopressors,1.3 L/day,5 days
+P00833,64,Male,26.1,3,No,Yes,No,12.5,8.5,Total Pancreatectomy,492,186,No,9.8,13.1,Infection,High,Antibiotics,549 mg/day,7 days
+P00834,64,Male,19.4,3,Yes,No,No,11.1,9.3,Distal Pancreatectomy,182,942,No,10.6,14.2,Infection,High,Antibiotics,500 mg/day,10 days
+P00835,51,Female,21.6,1,No,No,No,10.8,8.0,Whipple,268,364,No,7.6,11.0,Bleeding,Low,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00836,82,Male,18.2,3,No,Yes,No,13.2,4.1,Total Pancreatectomy,329,491,No,12.2,7.2,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00837,81,Female,25.0,3,No,Yes,No,12.5,5.8,Whipple,300,331,No,10.4,9.4,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00838,57,Female,22.5,3,Yes,No,Yes,10.9,12.4,Whipple,282,1000,No,8.5,14.8,Infection,High,Antibiotics,506 mg/day,7 days
+P00839,49,Female,27.0,3,No,Yes,No,13.1,6.0,Whipple,476,687,Yes,12.3,9.9,None,High,No Medication,0,0 days
+P00840,71,Female,22.5,4,No,Yes,No,12.9,13.0,Distal Pancreatectomy,334,546,No,9.5,13.2,Infection,High,Antibiotics,506 mg/day,7 days
+P00841,55,Male,22.5,3,No,No,Yes,12.4,10.4,Whipple,283,1252,Yes,10.5,16.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00842,48,Female,29.1,3,Yes,No,No,13.3,8.0,Whipple,326,1394,Yes,12.8,12.4,Infection,High,Antibiotics,585 mg/day,10 days
+P00843,36,Male,18.7,4,Yes,No,No,14.6,7.6,Whipple,171,1212,No,11.3,11.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00844,45,Male,31.5,3,No,No,No,14.5,6.1,Whipple,390,565,No,12.3,7.7,None,Medium,No Medication,0,0 days
+P00845,73,Male,30.8,2,No,Yes,No,13.2,6.8,Distal Pancreatectomy,226,1033,No,10.7,7.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00846,72,Male,28.0,3,Yes,No,No,12.9,5.6,Distal Pancreatectomy,353,1293,No,10.9,7.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00847,68,Male,26.9,2,No,No,No,13.2,6.9,Distal Pancreatectomy,153,227,No,10.2,10.7,Infection,Low,Antibiotics,558 mg/day,7 days
+P00848,72,Male,31.4,2,Yes,No,No,13.4,4.3,Whipple,477,1297,No,13.0,7.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00849,84,Male,20.8,3,No,Yes,No,12.7,4.2,Whipple,314,1149,Yes,11.5,6.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00850,68,Male,19.2,4,No,No,No,13.2,9.6,Total Pancreatectomy,277,672,No,11.4,13.1,Infection,High,Antibiotics,500 mg/day,10 days
+P00851,52,Male,21.6,4,No,No,No,11.1,3.8,Whipple,194,610,No,10.6,8.6,None,Medium,No Medication,0,0 days
+P00852,64,Male,29.9,2,No,Yes,No,13.1,8.8,Total Pancreatectomy,367,587,No,10.5,8.5,None,Medium,No Medication,0,0 days
+P00853,49,Female,18.5,3,Yes,Yes,No,13.6,3.2,Whipple,384,990,No,12.0,5.6,None,High,No Medication,0,0 days
+P00854,61,Female,26.7,2,No,Yes,No,12.4,8.3,Total Pancreatectomy,285,678,No,11.2,12.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00855,68,Female,32.9,4,Yes,Yes,Yes,12.9,6.6,Whipple,317,1049,No,12.6,9.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P00856,72,Male,30.8,4,No,No,No,11.7,9.6,Whipple,386,505,No,9.1,13.3,Infection,High,Antibiotics,605 mg/day,7 days
+P00857,67,Female,25.8,3,No,Yes,No,11.5,6.3,Distal Pancreatectomy,242,1149,No,8.5,9.2,None,High,Pain Management,300 mg/day,1 days
+P00858,58,Female,19.0,3,No,Yes,No,13.3,3.0,Distal Pancreatectomy,154,1206,No,11.7,8.9,Organ Failure,High,IV Fluids + Vasopressors,2.5 L/day,7 days
+P00859,49,Female,30.5,3,Yes,No,Yes,12.1,6.6,Whipple,305,463,No,10.0,6.5,Infection,High,Antibiotics,602 mg/day,7 days
+P00860,64,Male,27.0,3,No,Yes,No,10.9,7.3,Distal Pancreatectomy,394,1490,Yes,9.9,10.0,None,High,Pain Management,300 mg/day,2 days
+P00861,76,Male,19.7,2,Yes,No,No,11.7,6.7,Distal Pancreatectomy,509,1183,Yes,9.4,6.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00862,51,Male,19.4,3,Yes,Yes,No,11.8,8.2,Whipple,230,650,No,11.5,8.7,Organ Failure,High,IV Fluids + Vasopressors,2.9 L/day,3 days
+P00863,39,Male,31.6,3,No,No,No,13.9,5.9,Whipple,396,391,No,12.0,7.9,None,Low,No Medication,0,0 days
+P00864,63,Female,28.0,3,No,No,No,13.2,4.5,Whipple,492,888,No,10.8,5.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P00865,38,Female,30.4,2,No,No,No,12.0,5.0,Whipple,286,915,Yes,8.8,10.8,Infection,High,Antibiotics,600 mg/day,10 days
+P00866,44,Female,31.2,4,No,Yes,No,12.3,6.0,Distal Pancreatectomy,535,290,No,10.8,11.7,None,High,Pain Management,200 mg/day,2 days
+P00867,51,Female,26.6,2,Yes,No,Yes,14.6,6.0,Whipple,212,560,No,11.9,7.7,Infection,High,Antibiotics,555 mg/day,7 days
+P00868,44,Male,25.8,3,No,Yes,No,14.1,11.8,Whipple,456,763,No,11.9,15.5,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P00869,51,Male,24.5,3,No,Yes,No,11.7,9.5,Whipple,265,332,No,8.4,12.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00870,54,Male,22.8,3,Yes,Yes,No,14.4,8.4,Distal Pancreatectomy,262,573,No,12.8,13.2,None,High,Pain Management,300 mg/day,1 days
+P00871,58,Female,24.5,3,No,No,No,12.9,7.9,Whipple,180,757,Yes,11.6,11.5,None,High,Pain Management,100 mg/day,1 days
+P00872,39,Male,29.6,2,No,No,No,14.0,7.6,Whipple,156,370,Yes,10.9,7.1,Infection,Low,Antibiotics,591 mg/day,5 days
+P00873,68,Male,27.0,2,No,No,No,12.8,7.6,Whipple,152,1257,Yes,12.3,12.1,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P00874,40,Female,31.4,3,No,Yes,No,14.4,7.3,Total Pancreatectomy,456,270,No,13.7,11.7,Infection,Medium,Antibiotics,612 mg/day,10 days
+P00875,36,Female,24.7,3,No,Yes,No,11.6,7.1,Whipple,392,127,Yes,11.0,9.9,Infection,Medium,Antibiotics,532 mg/day,7 days
+P00876,47,Male,27.1,2,No,No,Yes,12.7,2.8,Distal Pancreatectomy,205,235,No,9.7,8.2,None,Medium,No Medication,0,0 days
+P00877,77,Male,27.5,3,No,Yes,No,14.5,6.3,Whipple,222,1024,No,14.2,11.7,Infection,High,Antibiotics,566 mg/day,7 days
+P00878,77,Male,26.9,3,Yes,No,Yes,10.1,6.5,Whipple,159,504,No,7.0,9.4,None,High,No Medication,0,0 days
+P00879,82,Male,28.5,3,No,Yes,No,12.9,5.5,Distal Pancreatectomy,210,1076,No,11.2,9.0,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00880,45,Male,21.6,3,No,No,Yes,12.5,5.9,Whipple,199,987,Yes,12.2,11.9,Infection,High,Antibiotics,500 mg/day,10 days
+P00881,81,Male,25.7,2,No,No,Yes,13.8,7.6,Total Pancreatectomy,271,1364,No,12.2,9.0,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00882,57,Female,19.6,1,No,Yes,No,14.3,8.5,Total Pancreatectomy,324,955,No,13.4,10.1,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00883,50,Female,23.8,3,No,Yes,No,13.9,7.6,Distal Pancreatectomy,150,543,Yes,11.6,8.3,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00884,65,Female,25.3,3,No,No,No,13.3,8.5,Distal Pancreatectomy,187,533,No,10.8,13.8,Infection,High,Antibiotics,539 mg/day,5 days
+P00885,45,Male,27.8,3,Yes,No,Yes,13.0,8.5,Whipple,339,1351,No,11.1,12.8,Infection,High,Antibiotics,569 mg/day,7 days
+P00886,50,Female,32.3,3,No,Yes,No,12.6,6.4,Whipple,228,608,No,12.2,6.6,Organ Failure,Medium,IV Fluids + Vasopressors,1.7 L/day,7 days
+P00887,42,Male,27.0,3,No,Yes,Yes,13.3,8.1,Total Pancreatectomy,494,1426,No,10.9,14.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00888,38,Male,29.2,4,Yes,No,No,14.8,3.5,Distal Pancreatectomy,487,133,No,11.8,7.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00889,74,Female,25.6,3,No,No,No,12.0,6.2,Distal Pancreatectomy,339,1125,No,9.4,11.2,None,High,Pain Management,100 mg/day,3 days
+P00890,38,Male,27.5,3,No,Yes,No,12.5,6.0,Whipple,333,461,Yes,9.5,5.8,Infection,High,Antibiotics,566 mg/day,10 days
+P00891,59,Male,19.1,2,No,No,No,12.9,10.1,Whipple,216,1318,Yes,12.0,12.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00892,37,Female,21.8,2,Yes,Yes,No,14.2,7.7,Total Pancreatectomy,166,705,Yes,11.1,11.7,None,High,No Medication,0,0 days
+P00893,66,Female,23.4,3,Yes,No,No,13.3,4.3,Whipple,532,1431,No,12.0,7.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,3 days
+P00894,37,Female,25.1,2,No,Yes,No,14.2,8.2,Whipple,517,815,No,13.9,12.0,Infection,High,Antibiotics,537 mg/day,7 days
+P00895,61,Male,18.7,4,Yes,No,No,14.2,8.8,Whipple,465,349,No,11.2,13.6,None,High,Pain Management,300 mg/day,3 days
+P00896,63,Female,20.1,3,No,No,No,13.7,6.8,Distal Pancreatectomy,445,246,No,10.4,8.7,None,Medium,Pain Management,100 mg/day,2 days
+P00897,66,Female,22.2,3,No,No,Yes,11.7,8.4,Whipple,358,1469,No,9.3,13.4,Infection,High,Antibiotics,502 mg/day,5 days
+P00898,84,Male,32.6,2,Yes,No,No,15.0,2.0,Distal Pancreatectomy,494,447,No,14.0,2.6,None,High,Pain Management,300 mg/day,1 days
+P00899,53,Female,23.0,2,Yes,No,No,14.7,1.6,Whipple,190,1377,No,13.6,2.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00900,55,Female,25.2,1,No,No,No,13.1,4.6,Total Pancreatectomy,264,498,No,11.3,4.4,None,Low,No Medication,0,0 days
+P00901,39,Female,20.9,2,No,No,Yes,11.3,7.3,Distal Pancreatectomy,249,1457,No,8.1,9.2,Infection,High,Antibiotics,500 mg/day,10 days
+P00902,52,Male,27.2,2,No,No,Yes,11.1,10.1,Whipple,522,1299,No,10.3,12.1,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P00903,62,Male,22.2,3,No,No,No,13.3,4.7,Distal Pancreatectomy,494,224,Yes,10.4,9.4,None,Medium,Pain Management,100 mg/day,3 days
+P00904,76,Male,21.1,4,Yes,No,No,12.2,5.3,Whipple,498,862,No,11.0,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00905,56,Male,25.7,4,No,Yes,Yes,10.9,7.2,Whipple,288,497,No,8.0,9.5,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00906,55,Female,18.1,3,No,No,No,11.1,6.0,Total Pancreatectomy,465,230,Yes,7.9,9.7,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,3 days
+P00907,40,Male,18.1,2,No,Yes,No,12.4,5.9,Whipple,473,704,Yes,10.7,5.7,None,Medium,No Medication,0,0 days
+P00908,35,Male,21.3,4,No,No,No,13.2,6.2,Whipple,483,991,Yes,11.7,6.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00909,39,Female,18.6,4,No,Yes,Yes,14.7,9.6,Whipple,451,921,No,11.8,13.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00910,75,Female,19.6,2,Yes,No,No,13.6,9.2,Whipple,443,1001,No,11.6,12.9,Infection,High,Antibiotics,500 mg/day,10 days
+P00911,46,Female,23.1,3,No,No,No,12.5,7.0,Total Pancreatectomy,166,1044,No,10.0,11.5,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P00912,60,Male,30.0,2,Yes,No,Yes,13.5,10.3,Whipple,471,831,No,11.2,12.4,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P00913,80,Male,26.6,3,Yes,No,No,13.3,8.0,Total Pancreatectomy,441,433,No,12.5,12.2,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P00914,68,Male,25.7,4,No,Yes,No,13.9,9.3,Total Pancreatectomy,223,1143,No,10.9,13.2,Infection,High,Antibiotics,544 mg/day,7 days
+P00915,83,Female,22.4,1,No,Yes,No,13.0,5.3,Whipple,412,304,No,12.1,11.1,Infection,High,Antibiotics,504 mg/day,10 days
+P00916,48,Female,32.0,4,No,Yes,No,14.2,5.7,Whipple,165,1055,No,10.9,6.6,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P00917,60,Male,24.0,3,No,No,Yes,14.0,5.7,Total Pancreatectomy,163,454,No,12.9,8.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P00918,79,Female,19.3,4,No,Yes,Yes,13.1,6.8,Whipple,485,1296,No,10.5,10.2,Infection,High,Antibiotics,500 mg/day,10 days
+P00919,61,Female,27.3,3,Yes,No,No,12.9,7.1,Whipple,430,1312,No,11.7,13.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00920,43,Female,19.7,3,No,Yes,No,14.1,7.6,Whipple,510,923,No,12.8,8.4,Infection,High,Antibiotics,500 mg/day,7 days
+P00921,60,Male,23.2,2,No,Yes,No,12.1,10.9,Distal Pancreatectomy,153,1125,Yes,10.8,13.8,Infection,High,Antibiotics,514 mg/day,7 days
+P00922,81,Female,25.6,2,No,Yes,No,11.2,8.4,Distal Pancreatectomy,276,1040,Yes,8.5,10.2,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,5 days
+P00923,56,Female,31.1,2,No,No,No,11.2,6.0,Whipple,461,267,No,9.1,8.9,None,Medium,No Medication,0,0 days
+P00924,81,Male,25.4,4,Yes,No,No,12.0,7.0,Whipple,155,467,Yes,8.9,8.0,None,High,Pain Management,100 mg/day,1 days
+P00925,64,Male,28.5,3,No,Yes,Yes,13.8,10.0,Total Pancreatectomy,278,635,No,12.5,9.8,Infection,High,Antibiotics,578 mg/day,7 days
+P00926,77,Female,32.9,4,No,No,No,12.5,8.6,Distal Pancreatectomy,534,1062,No,10.0,11.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00927,82,Female,20.0,4,Yes,Yes,No,13.2,10.0,Distal Pancreatectomy,520,679,Yes,10.5,11.7,None,High,Pain Management,100 mg/day,3 days
+P00928,51,Male,22.1,2,No,No,No,12.4,6.0,Distal Pancreatectomy,381,1493,Yes,11.6,6.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P00929,60,Male,23.9,2,No,No,Yes,12.4,5.6,Whipple,462,1049,Yes,10.8,7.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00930,70,Female,24.3,2,No,Yes,No,11.8,5.6,Distal Pancreatectomy,344,306,Yes,10.0,5.4,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,3 days
+P00931,35,Female,24.2,2,No,No,No,12.9,6.2,Whipple,214,1172,No,11.5,11.9,None,Medium,Pain Management,200 mg/day,1 days
+P00932,42,Female,31.6,2,Yes,Yes,No,12.8,4.9,Whipple,470,643,No,11.5,8.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00933,83,Female,28.7,3,Yes,No,Yes,13.5,7.6,Distal Pancreatectomy,252,228,No,11.0,12.4,Infection,High,Antibiotics,580 mg/day,5 days
+P00934,69,Male,27.1,2,Yes,Yes,No,13.3,7.6,Whipple,426,713,No,12.3,9.9,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,7 days
+P00935,49,Female,22.6,2,No,No,No,12.8,9.7,Total Pancreatectomy,307,134,No,10.2,15.1,Infection,Medium,Antibiotics,507 mg/day,10 days
+P00936,81,Female,30.4,2,Yes,Yes,No,11.2,3.5,Whipple,373,918,No,7.9,6.1,None,High,No Medication,0,0 days
+P00937,56,Male,32.3,2,Yes,No,No,14.3,5.1,Total Pancreatectomy,438,298,No,12.2,8.3,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00938,48,Female,30.3,4,No,No,Yes,12.9,8.6,Total Pancreatectomy,427,176,No,10.6,11.3,Infection,High,Antibiotics,599 mg/day,7 days
+P00939,60,Male,18.0,3,No,No,No,13.1,7.4,Whipple,331,468,Yes,12.6,11.7,Infection,High,Antibiotics,500 mg/day,5 days
+P00940,62,Female,27.5,4,No,No,No,14.9,7.1,Distal Pancreatectomy,515,932,Yes,11.8,10.3,Infection,High,Antibiotics,566 mg/day,5 days
+P00941,57,Female,18.8,2,Yes,No,No,14.1,9.5,Whipple,153,625,Yes,12.9,10.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00942,48,Male,21.9,2,Yes,Yes,No,13.5,5.0,Total Pancreatectomy,364,448,Yes,11.2,5.4,Infection,High,Antibiotics,500 mg/day,10 days
+P00943,58,Male,18.9,3,Yes,Yes,No,13.0,5.5,Whipple,366,605,No,9.6,8.9,None,High,No Medication,0,0 days
+P00944,36,Female,27.1,2,No,Yes,No,13.0,5.3,Distal Pancreatectomy,358,742,Yes,10.8,8.0,None,Medium,No Medication,0,0 days
+P00945,79,Female,28.3,2,No,No,Yes,13.3,3.0,Whipple,223,337,No,10.7,3.1,Infection,Medium,Antibiotics,575 mg/day,7 days
+P00946,60,Female,19.7,2,No,Yes,No,13.5,7.3,Whipple,376,1403,No,11.8,9.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P00947,48,Male,23.8,2,Yes,No,No,15.1,6.0,Whipple,524,237,No,14.6,8.8,None,Low,Pain Management,100 mg/day,1 days
+P00948,41,Female,24.8,2,No,No,No,16.0,5.5,Whipple,242,1392,No,13.1,10.4,None,Medium,No Medication,0,0 days
+P00949,37,Male,23.5,2,Yes,Yes,No,13.3,5.2,Distal Pancreatectomy,214,1324,Yes,12.9,5.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P00950,81,Male,19.8,3,No,Yes,No,10.4,7.0,Distal Pancreatectomy,470,1265,No,7.9,8.8,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P00951,57,Female,24.3,2,No,Yes,Yes,11.9,5.4,Distal Pancreatectomy,159,711,Yes,11.5,10.2,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,7 days
+P00952,80,Male,29.3,2,No,Yes,No,15.2,7.4,Whipple,452,779,No,12.1,11.1,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,3 days
+P00953,77,Female,19.1,3,Yes,Yes,Yes,13.9,7.9,Whipple,471,938,No,13.1,9.3,None,High,Pain Management,100 mg/day,2 days
+P00954,81,Female,19.2,2,Yes,Yes,No,13.5,6.4,Whipple,454,1037,No,11.6,11.4,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P00955,79,Female,23.3,2,No,No,No,12.8,6.3,Distal Pancreatectomy,427,454,No,10.6,9.0,None,Medium,Pain Management,300 mg/day,3 days
+P00956,52,Female,32.1,4,Yes,No,No,11.6,7.4,Total Pancreatectomy,235,677,No,9.8,10.1,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,7 days
+P00957,72,Female,28.0,2,Yes,Yes,No,15.0,6.9,Whipple,175,946,Yes,13.6,12.7,Infection,High,Antibiotics,572 mg/day,7 days
+P00958,69,Male,28.2,2,Yes,Yes,No,12.0,9.7,Whipple,367,1452,Yes,10.2,15.4,Infection,High,Antibiotics,574 mg/day,7 days
+P00959,49,Male,23.4,3,Yes,Yes,No,13.9,7.6,Whipple,244,658,No,12.6,9.4,Infection,High,Antibiotics,516 mg/day,10 days
+P00960,59,Female,26.9,2,No,No,No,11.4,9.2,Distal Pancreatectomy,393,948,No,9.7,9.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00961,71,Female,18.2,3,No,No,No,12.7,8.2,Distal Pancreatectomy,256,1354,No,11.3,9.8,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00962,62,Male,27.5,3,Yes,Yes,No,14.2,4.4,Distal Pancreatectomy,539,1431,Yes,12.1,4.1,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P00963,44,Male,31.7,2,No,Yes,Yes,12.7,5.9,Whipple,397,1269,No,11.6,5.5,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,7 days
+P00964,73,Male,27.2,3,No,No,No,12.6,6.9,Distal Pancreatectomy,163,1275,No,9.1,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00965,51,Male,31.1,3,No,No,No,13.0,8.7,Distal Pancreatectomy,310,239,No,11.1,14.3,Infection,Medium,Antibiotics,609 mg/day,7 days
+P00966,73,Female,28.9,2,No,Yes,No,11.4,10.9,Whipple,220,762,No,10.5,16.1,None,High,Pain Management,200 mg/day,3 days
+P00967,56,Female,19.8,3,No,No,No,11.2,6.0,Distal Pancreatectomy,301,120,No,9.4,8.8,Organ Failure,Medium,IV Fluids + Vasopressors,2.5 L/day,5 days
+P00968,60,Male,31.5,2,Yes,Yes,No,13.9,7.1,Whipple,224,1377,No,10.8,10.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P00969,78,Female,19.0,3,No,Yes,No,12.5,8.6,Whipple,525,163,No,12.1,8.1,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,7 days
+P00970,59,Male,26.0,2,No,No,No,13.8,6.9,Total Pancreatectomy,364,1341,Yes,11.3,7.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00971,51,Female,20.1,3,No,No,No,14.3,10.3,Whipple,517,1195,Yes,12.2,10.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00972,47,Male,18.2,2,No,Yes,No,14.4,4.3,Distal Pancreatectomy,200,1089,No,13.6,8.7,Organ Failure,Medium,IV Fluids + Vasopressors,2.6 L/day,7 days
+P00973,54,Female,24.3,3,No,No,No,11.1,8.4,Distal Pancreatectomy,535,261,No,8.2,8.8,None,Medium,Pain Management,300 mg/day,1 days
+P00974,59,Male,22.4,2,No,Yes,No,12.2,8.3,Whipple,292,229,No,10.7,13.4,None,Medium,Pain Management,100 mg/day,2 days
+P00975,38,Male,25.3,2,Yes,No,No,13.6,9.3,Distal Pancreatectomy,185,680,No,12.4,13.0,None,High,Pain Management,200 mg/day,3 days
+P00976,44,Female,26.7,3,No,No,No,13.7,7.1,Distal Pancreatectomy,523,324,No,10.7,8.1,Bleeding,Low,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P00977,37,Male,18.7,3,No,No,Yes,15.7,8.8,Whipple,316,679,Yes,13.4,9.3,None,High,No Medication,0,0 days
+P00978,75,Female,19.8,3,No,No,No,11.9,6.5,Whipple,385,1082,No,8.7,10.1,None,High,No Medication,0,0 days
+P00979,79,Female,26.4,3,Yes,Yes,No,14.4,5.4,Whipple,409,1104,Yes,12.1,10.8,Infection,High,Antibiotics,552 mg/day,10 days
+P00980,52,Male,23.1,3,No,No,No,13.4,5.1,Whipple,341,206,No,10.7,9.3,None,Low,Pain Management,200 mg/day,1 days
+P00981,81,Female,28.9,4,Yes,No,No,11.0,4.1,Whipple,351,720,No,8.0,5.9,Infection,High,Antibiotics,582 mg/day,10 days
+P00982,70,Female,27.8,2,Yes,No,No,12.3,6.1,Whipple,411,939,No,11.8,9.4,None,High,Pain Management,300 mg/day,3 days
+P00983,81,Female,30.7,3,No,Yes,No,13.3,7.6,Whipple,334,1226,No,10.5,9.1,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P00984,56,Female,28.4,3,Yes,No,No,11.0,6.6,Total Pancreatectomy,307,1264,Yes,8.7,12.6,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P00985,68,Female,24.4,4,No,No,No,10.5,7.4,Whipple,395,676,No,10.0,11.8,Infection,High,Antibiotics,528 mg/day,7 days
+P00986,81,Male,28.1,4,Yes,Yes,Yes,10.9,9.5,Distal Pancreatectomy,259,1257,Yes,9.0,13.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00987,42,Female,22.1,2,No,No,No,13.3,6.0,Distal Pancreatectomy,248,298,Yes,12.7,8.3,Infection,Low,Antibiotics,501 mg/day,7 days
+P00988,74,Female,22.6,2,Yes,Yes,No,12.4,11.7,Distal Pancreatectomy,390,609,Yes,9.7,15.2,Infection,High,Antibiotics,507 mg/day,5 days
+P00989,83,Female,29.8,3,Yes,Yes,No,12.3,8.5,Whipple,351,766,No,10.3,10.2,Infection,High,Antibiotics,593 mg/day,7 days
+P00990,78,Female,24.7,3,Yes,No,No,12.3,6.6,Total Pancreatectomy,271,178,No,8.9,6.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P00991,53,Female,30.0,3,Yes,No,No,11.3,6.6,Distal Pancreatectomy,266,993,No,10.4,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P00992,76,Male,30.3,3,Yes,No,No,12.5,5.0,Distal Pancreatectomy,245,611,No,10.3,10.5,Infection,High,Antibiotics,599 mg/day,7 days
+P00993,75,Female,30.9,3,Yes,Yes,No,10.8,6.9,Whipple,383,349,No,9.8,10.5,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,7 days
+P00994,71,Male,31.7,2,No,No,No,14.4,2.7,Whipple,216,988,No,12.1,2.7,Infection,Medium,Antibiotics,616 mg/day,10 days
+P00995,40,Male,24.5,4,Yes,Yes,No,15.0,9.5,Distal Pancreatectomy,525,1123,No,12.4,14.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P00996,60,Male,22.8,2,No,Yes,No,10.2,1.4,Whipple,367,698,No,7.6,2.6,None,High,Pain Management,300 mg/day,3 days
+P00997,68,Male,26.7,2,No,Yes,No,12.4,7.1,Whipple,164,852,No,9.5,8.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P00998,79,Female,23.6,3,No,No,No,12.5,4.7,Whipple,422,699,Yes,9.5,6.1,Infection,High,Antibiotics,519 mg/day,5 days
+P00999,40,Male,27.0,3,No,No,No,12.8,5.6,Distal Pancreatectomy,368,1074,No,12.3,8.9,Infection,Medium,Antibiotics,560 mg/day,7 days
+P01000,71,Male,28.6,2,No,No,No,14.2,5.9,Total Pancreatectomy,423,582,No,12.8,8.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P01001,67,Female,28.3,2,Yes,No,No,12.4,10.9,Whipple,520,935,Yes,9.9,13.6,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,3 days
+P01002,56,Female,23.6,4,Yes,Yes,No,12.9,4.8,Distal Pancreatectomy,296,271,No,11.0,9.0,Infection,High,Antibiotics,519 mg/day,5 days
+P01003,55,Female,20.5,2,No,No,No,16.6,8.8,Distal Pancreatectomy,481,968,Yes,15.7,10.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P01004,40,Male,24.5,3,Yes,No,No,12.9,9.3,Whipple,493,116,Yes,10.8,13.9,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P01005,40,Female,20.1,3,Yes,No,Yes,15.1,2.3,Total Pancreatectomy,301,1417,Yes,13.5,2.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,3 days
+P01006,82,Female,31.4,3,Yes,Yes,No,13.6,5.8,Total Pancreatectomy,496,493,No,12.1,10.4,None,High,Pain Management,100 mg/day,2 days
+P01007,38,Male,23.2,3,Yes,No,No,12.3,10.0,Distal Pancreatectomy,453,1342,No,9.4,13.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01008,64,Female,20.3,2,Yes,No,Yes,12.1,4.4,Whipple,164,333,No,10.5,8.3,None,High,No Medication,0,0 days
+P01009,45,Female,18.4,3,No,No,No,13.0,9.4,Distal Pancreatectomy,528,347,Yes,12.6,12.0,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P01010,64,Female,27.7,2,Yes,No,No,11.6,7.0,Whipple,532,151,No,11.1,10.8,Infection,Medium,Antibiotics,568 mg/day,7 days
+P01011,65,Female,27.6,3,No,Yes,No,12.0,6.9,Whipple,503,114,No,9.0,6.9,Infection,High,Antibiotics,567 mg/day,7 days
+P01012,58,Male,23.1,2,Yes,No,No,12.5,7.1,Whipple,233,1447,Yes,9.1,12.1,None,High,No Medication,0,0 days
+P01013,43,Female,19.1,3,Yes,Yes,Yes,13.4,7.7,Distal Pancreatectomy,341,540,No,10.9,7.6,Infection,High,Antibiotics,500 mg/day,7 days
+P01014,37,Female,24.1,2,No,No,No,15.2,5.1,Total Pancreatectomy,190,1235,Yes,13.7,5.6,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01015,65,Male,22.7,2,Yes,No,Yes,12.4,6.5,Whipple,501,795,Yes,9.1,9.7,None,High,Pain Management,200 mg/day,2 days
+P01016,74,Female,28.2,2,No,Yes,No,13.6,7.7,Whipple,473,106,No,11.2,12.0,Infection,High,Antibiotics,574 mg/day,10 days
+P01017,71,Male,27.1,2,No,No,Yes,11.0,7.4,Total Pancreatectomy,410,925,No,8.0,7.4,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P01018,70,Female,23.5,3,Yes,No,No,14.3,7.7,Whipple,458,1368,Yes,11.5,13.2,Infection,High,Antibiotics,518 mg/day,7 days
+P01019,58,Male,21.3,2,No,Yes,No,10.9,5.6,Distal Pancreatectomy,527,1488,Yes,9.4,11.4,Infection,High,Antibiotics,500 mg/day,7 days
+P01020,65,Male,32.8,4,Yes,No,No,14.0,8.3,Whipple,285,1490,Yes,12.2,11.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P01021,40,Male,24.8,4,No,Yes,No,12.9,7.3,Whipple,427,1410,Yes,12.0,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P01022,36,Male,28.3,3,Yes,No,No,12.9,3.8,Total Pancreatectomy,255,1229,Yes,11.7,8.1,None,High,No Medication,0,0 days
+P01023,54,Female,20.1,2,No,No,Yes,12.6,5.9,Whipple,156,1136,No,9.8,7.5,None,High,Pain Management,300 mg/day,3 days
+P01024,62,Male,25.3,2,Yes,No,No,11.4,5.2,Whipple,451,1269,No,8.2,7.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01025,45,Female,18.4,3,No,No,No,11.5,5.2,Whipple,179,577,No,8.9,10.7,Organ Failure,Medium,IV Fluids + Vasopressors,3.0 L/day,3 days
+P01026,38,Male,25.6,2,No,No,Yes,14.0,6.0,Total Pancreatectomy,275,730,No,12.2,11.7,None,High,No Medication,0,0 days
+P01027,49,Male,32.5,2,No,No,No,13.0,8.2,Total Pancreatectomy,506,814,No,12.4,13.7,None,Medium,Pain Management,300 mg/day,2 days
+P01028,40,Male,23.8,3,No,Yes,No,12.6,5.7,Whipple,228,214,Yes,12.1,6.9,None,Medium,No Medication,0,0 days
+P01029,83,Female,18.6,3,No,No,No,13.5,7.5,Whipple,538,608,Yes,12.0,8.5,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P01030,64,Male,18.5,3,No,No,No,13.1,7.1,Distal Pancreatectomy,216,1275,No,11.3,8.5,Infection,High,Antibiotics,500 mg/day,10 days
+P01031,72,Female,23.8,2,Yes,Yes,No,12.0,5.4,Whipple,172,156,Yes,9.8,7.8,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,3 days
+P01032,36,Female,20.4,3,Yes,Yes,No,16.0,6.3,Distal Pancreatectomy,338,481,Yes,15.7,7.8,None,High,Pain Management,200 mg/day,2 days
+P01033,49,Female,18.4,2,Yes,No,No,13.9,8.7,Whipple,223,1280,Yes,10.4,10.6,Organ Failure,High,IV Fluids + Vasopressors,3.0 L/day,7 days
+P01034,45,Female,29.3,2,No,No,Yes,13.2,7.3,Whipple,154,1051,No,11.7,10.8,Infection,Medium,Antibiotics,587 mg/day,7 days
+P01035,42,Female,24.9,4,No,Yes,No,12.4,8.1,Distal Pancreatectomy,231,1256,No,9.4,12.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01036,60,Female,22.3,2,No,Yes,No,14.1,9.5,Whipple,174,1286,No,12.1,13.8,Infection,High,Antibiotics,503 mg/day,10 days
+P01037,79,Female,31.5,2,Yes,Yes,No,12.1,7.9,Total Pancreatectomy,413,374,No,11.4,12.7,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P01038,78,Female,19.7,1,No,No,No,12.0,3.2,Whipple,151,1200,No,9.1,2.9,None,High,Pain Management,300 mg/day,2 days
+P01039,39,Female,32.3,4,Yes,Yes,Yes,15.0,7.5,Whipple,427,143,No,12.4,7.3,None,High,No Medication,0,0 days
+P01040,40,Male,22.7,3,Yes,No,No,13.0,5.8,Total Pancreatectomy,477,817,No,11.0,10.4,Infection,High,Antibiotics,508 mg/day,5 days
+P01041,60,Male,31.3,3,No,Yes,No,12.1,10.6,Whipple,492,417,Yes,10.2,13.6,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P01042,38,Male,27.0,3,No,No,Yes,13.0,7.8,Distal Pancreatectomy,373,633,Yes,12.4,11.1,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,7 days
+P01043,53,Male,30.4,2,No,Yes,No,14.0,5.8,Whipple,221,1277,Yes,11.6,5.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01044,54,Male,32.8,3,No,No,Yes,13.7,8.1,Distal Pancreatectomy,217,336,Yes,10.5,9.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P01045,67,Female,22.3,2,Yes,Yes,No,14.2,7.2,Distal Pancreatectomy,469,992,Yes,13.6,10.8,None,High,Pain Management,200 mg/day,2 days
+P01046,54,Female,32.4,2,No,No,No,11.5,3.6,Whipple,243,616,No,10.4,8.7,Bleeding,Low,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01047,83,Female,23.8,3,Yes,Yes,No,14.1,8.7,Distal Pancreatectomy,168,1344,No,10.9,14.2,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,7 days
+P01048,46,Female,23.8,4,No,No,No,12.8,6.2,Distal Pancreatectomy,277,1433,No,11.6,9.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P01049,81,Female,23.1,1,No,No,No,13.1,9.8,Whipple,492,1300,No,10.7,12.8,Infection,High,Antibiotics,513 mg/day,5 days
+P01050,35,Female,26.1,2,Yes,Yes,No,14.5,6.8,Distal Pancreatectomy,231,1343,No,12.5,11.7,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,7 days
+P01051,60,Female,20.3,2,Yes,No,No,13.8,9.9,Distal Pancreatectomy,403,137,No,11.6,12.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P01052,48,Male,26.3,2,No,No,No,13.4,7.8,Whipple,370,753,No,11.8,10.7,Infection,Medium,Antibiotics,551 mg/day,5 days
+P01053,72,Male,26.1,4,No,Yes,No,10.6,8.9,Whipple,492,846,Yes,9.3,14.3,Infection,High,Antibiotics,549 mg/day,7 days
+P01054,71,Male,29.4,3,No,Yes,Yes,12.9,6.0,Whipple,246,1326,Yes,12.4,10.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01055,45,Male,30.5,3,Yes,Yes,No,12.1,7.7,Whipple,201,940,No,9.4,13.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01056,70,Female,24.6,3,Yes,No,No,13.9,3.5,Distal Pancreatectomy,324,547,No,11.2,4.4,Infection,High,Antibiotics,531 mg/day,7 days
+P01057,47,Female,22.5,2,No,No,Yes,14.2,6.7,Whipple,487,783,Yes,11.8,9.6,Infection,High,Antibiotics,506 mg/day,7 days
+P01058,77,Female,21.9,3,No,Yes,No,12.6,4.0,Total Pancreatectomy,331,224,Yes,10.2,9.0,Infection,High,Antibiotics,500 mg/day,10 days
+P01059,37,Male,20.9,2,Yes,No,No,12.2,4.7,Whipple,502,1188,No,11.1,4.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01060,67,Female,18.9,3,No,No,Yes,14.9,5.2,Whipple,264,892,Yes,14.5,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P01061,40,Female,23.1,4,Yes,No,No,12.3,8.3,Distal Pancreatectomy,497,883,No,9.4,9.0,Infection,High,Antibiotics,513 mg/day,7 days
+P01062,84,Female,22.1,3,No,No,No,11.6,6.7,Distal Pancreatectomy,150,1367,Yes,9.7,11.5,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P01063,44,Male,32.5,2,No,No,No,12.0,7.1,Distal Pancreatectomy,212,325,No,10.7,10.6,Infection,Low,Antibiotics,626 mg/day,5 days
+P01064,39,Female,26.4,3,No,No,No,12.3,6.7,Whipple,397,564,Yes,11.7,7.5,None,Medium,Pain Management,300 mg/day,3 days
+P01065,57,Male,23.2,2,Yes,Yes,No,12.0,9.2,Whipple,380,742,No,11.5,11.8,Infection,High,Antibiotics,514 mg/day,7 days
+P01066,44,Male,26.7,1,No,No,No,14.0,7.0,Whipple,375,392,Yes,12.6,10.9,Bleeding,Low,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P01067,78,Male,20.1,2,Yes,No,No,10.4,7.5,Total Pancreatectomy,168,820,No,7.5,11.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P01068,36,Male,24.7,2,Yes,No,Yes,11.9,5.9,Whipple,180,855,No,8.7,8.2,Infection,High,Antibiotics,532 mg/day,7 days
+P01069,47,Female,27.4,3,No,No,Yes,12.9,9.3,Total Pancreatectomy,482,265,No,9.7,14.6,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P01070,74,Male,25.3,3,No,No,No,13.3,9.4,Distal Pancreatectomy,270,868,No,10.1,12.3,None,High,No Medication,0,0 days
+P01071,36,Male,24.0,4,No,No,No,15.0,6.9,Whipple,173,1341,No,11.8,9.7,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,3 days
+P01072,54,Female,32.9,3,No,Yes,No,14.9,5.8,Distal Pancreatectomy,474,1106,No,12.9,5.7,Infection,High,Antibiotics,630 mg/day,5 days
+P01073,35,Female,31.2,3,No,Yes,Yes,11.1,3.8,Distal Pancreatectomy,360,970,No,10.1,9.3,None,High,Pain Management,100 mg/day,2 days
+P01074,71,Male,27.4,2,Yes,No,No,10.7,5.3,Total Pancreatectomy,310,1398,No,7.8,6.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01075,43,Female,26.5,1,Yes,No,Yes,13.0,2.7,Whipple,404,1175,No,12.0,5.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01076,51,Male,27.3,3,Yes,Yes,No,12.2,5.2,Whipple,208,1497,Yes,11.0,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,1 days
+P01077,43,Male,21.0,2,No,No,Yes,11.6,7.7,Whipple,263,1486,No,10.6,8.6,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,7 days
+P01078,45,Male,23.9,3,No,No,Yes,13.0,6.9,Whipple,309,666,No,11.1,9.8,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01079,49,Male,18.6,2,Yes,Yes,No,13.3,11.6,Distal Pancreatectomy,369,1137,No,12.0,12.7,Infection,High,Antibiotics,500 mg/day,7 days
+P01080,58,Female,25.1,1,No,Yes,No,12.0,6.3,Total Pancreatectomy,506,1463,No,11.2,10.7,Infection,High,Antibiotics,537 mg/day,5 days
+P01081,72,Male,26.1,2,No,Yes,No,12.3,6.1,Whipple,318,701,No,10.5,9.3,None,High,Pain Management,200 mg/day,2 days
+P01082,69,Female,21.4,2,No,No,No,12.1,9.1,Distal Pancreatectomy,161,1212,No,9.0,14.2,None,High,No Medication,0,0 days
+P01083,64,Female,32.5,1,Yes,Yes,No,12.5,3.1,Distal Pancreatectomy,391,1004,No,10.4,8.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01084,65,Female,31.6,3,Yes,Yes,No,13.6,4.0,Whipple,524,140,No,10.5,7.7,None,High,Pain Management,100 mg/day,2 days
+P01085,83,Female,28.8,2,Yes,No,Yes,11.7,8.3,Whipple,288,1427,No,10.8,12.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P01086,39,Male,26.0,3,Yes,Yes,No,12.2,6.6,Distal Pancreatectomy,246,1391,No,11.4,9.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01087,78,Female,31.0,2,No,Yes,No,12.5,6.7,Total Pancreatectomy,296,1261,No,10.4,8.7,Infection,High,Antibiotics,608 mg/day,7 days
+P01088,84,Male,20.0,2,No,Yes,No,13.0,5.1,Distal Pancreatectomy,331,1129,No,11.2,8.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01089,48,Female,29.9,2,No,No,Yes,13.3,7.5,Whipple,206,341,No,10.9,12.9,None,Medium,No Medication,0,0 days
+P01090,45,Female,19.9,3,No,No,No,15.5,5.4,Whipple,191,261,No,12.7,7.6,None,Low,Pain Management,100 mg/day,1 days
+P01091,43,Male,29.9,2,No,Yes,No,13.7,7.1,Whipple,503,1118,Yes,11.0,8.6,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,3 days
+P01092,68,Male,22.1,3,Yes,Yes,No,13.7,4.7,Distal Pancreatectomy,348,791,No,10.4,6.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01093,46,Male,31.2,2,No,No,Yes,12.7,6.6,Distal Pancreatectomy,180,908,No,11.1,8.9,None,Medium,Pain Management,200 mg/day,2 days
+P01094,69,Female,32.2,3,No,Yes,Yes,11.8,11.0,Whipple,329,1078,No,10.8,11.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01095,69,Female,20.2,2,Yes,Yes,No,12.4,6.2,Distal Pancreatectomy,151,617,Yes,10.3,8.9,None,High,Pain Management,300 mg/day,3 days
+P01096,35,Male,24.9,3,Yes,Yes,No,12.1,6.7,Distal Pancreatectomy,437,997,No,11.4,9.4,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,7 days
+P01097,74,Male,32.7,3,No,No,No,13.5,6.6,Distal Pancreatectomy,287,882,No,12.3,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01098,56,Male,25.3,4,Yes,No,No,11.0,7.3,Total Pancreatectomy,254,883,No,10.0,9.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P01099,63,Male,31.0,2,No,Yes,No,13.7,7.9,Whipple,367,1279,No,12.1,11.4,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,3 days
+P01100,42,Female,26.8,2,Yes,No,No,12.9,7.5,Total Pancreatectomy,371,184,No,12.2,12.7,Infection,Medium,Antibiotics,557 mg/day,7 days
+P01101,45,Male,23.6,1,No,Yes,No,13.9,7.6,Whipple,480,1133,No,13.5,13.3,None,High,Pain Management,300 mg/day,2 days
+P01102,75,Male,22.3,3,Yes,Yes,No,12.1,6.6,Whipple,254,237,Yes,9.7,9.9,Infection,High,Antibiotics,503 mg/day,7 days
+P01103,71,Male,21.0,3,Yes,No,Yes,11.9,7.2,Total Pancreatectomy,276,853,No,9.6,7.0,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P01104,48,Male,29.4,3,No,Yes,Yes,12.5,6.6,Total Pancreatectomy,414,1005,Yes,9.9,12.4,None,High,Pain Management,300 mg/day,2 days
+P01105,64,Female,23.8,2,Yes,No,No,12.5,3.4,Distal Pancreatectomy,349,812,No,10.1,7.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P01106,69,Male,25.7,2,No,Yes,Yes,14.0,12.3,Distal Pancreatectomy,401,255,No,13.3,14.0,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,7 days
+P01107,55,Female,25.4,1,Yes,No,No,14.0,8.5,Distal Pancreatectomy,164,507,No,12.8,9.0,Infection,Medium,Antibiotics,540 mg/day,5 days
+P01108,71,Male,26.7,4,Yes,Yes,Yes,15.3,5.0,Distal Pancreatectomy,375,886,No,14.6,5.4,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,5 days
+P01109,39,Male,31.0,3,Yes,No,No,12.4,7.5,Whipple,502,1348,Yes,9.4,8.1,Organ Failure,High,IV Fluids + Vasopressors,1.7 L/day,5 days
+P01110,53,Female,32.7,4,Yes,Yes,No,9.0,4.3,Distal Pancreatectomy,254,679,No,6.3,4.1,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P01111,48,Male,24.1,2,No,No,No,12.5,6.0,Whipple,382,1307,Yes,11.6,11.4,Organ Failure,High,IV Fluids + Vasopressors,1.8 L/day,7 days
+P01112,60,Female,30.4,3,Yes,Yes,Yes,13.3,4.0,Whipple,468,1318,Yes,11.9,7.0,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01113,38,Female,29.5,3,No,No,No,13.9,6.9,Whipple,368,653,No,10.5,10.9,Infection,Medium,Antibiotics,590 mg/day,7 days
+P01114,59,Male,26.6,2,Yes,Yes,No,13.4,3.8,Distal Pancreatectomy,426,495,Yes,11.2,8.7,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P01115,79,Female,32.3,3,Yes,No,No,12.4,7.8,Total Pancreatectomy,410,1257,No,9.5,12.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01116,76,Female,21.0,4,No,Yes,Yes,15.1,8.4,Distal Pancreatectomy,530,1432,No,14.0,13.6,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P01117,59,Female,19.6,4,Yes,Yes,No,11.8,5.3,Total Pancreatectomy,490,909,Yes,10.8,11.1,Infection,High,Antibiotics,500 mg/day,7 days
+P01118,52,Female,30.8,3,No,No,No,12.7,7.3,Whipple,518,1061,Yes,9.9,9.7,Infection,High,Antibiotics,605 mg/day,7 days
+P01119,74,Female,24.6,2,Yes,Yes,No,11.7,5.2,Distal Pancreatectomy,485,641,No,9.2,10.9,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,7 days
+P01120,42,Female,30.7,2,No,Yes,No,13.0,8.0,Distal Pancreatectomy,339,1132,No,10.5,12.2,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01121,73,Female,31.4,4,No,No,Yes,14.9,5.6,Distal Pancreatectomy,521,1086,No,12.8,5.6,Infection,High,Antibiotics,612 mg/day,7 days
+P01122,74,Female,18.9,1,No,No,No,12.8,8.6,Distal Pancreatectomy,347,269,No,10.7,12.5,Infection,Medium,Antibiotics,500 mg/day,7 days
+P01123,48,Male,31.3,3,No,Yes,No,12.8,3.4,Distal Pancreatectomy,502,389,No,10.1,7.4,Organ Failure,Medium,IV Fluids + Vasopressors,2.0 L/day,3 days
+P01124,66,Male,24.7,3,No,No,No,11.0,5.0,Total Pancreatectomy,426,1291,No,9.8,10.4,Organ Failure,High,IV Fluids + Vasopressors,2.1 L/day,5 days
+P01125,72,Female,25.7,3,Yes,No,No,12.7,4.8,Distal Pancreatectomy,485,1467,Yes,11.3,6.7,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,7 days
+P01126,67,Male,27.4,4,Yes,Yes,Yes,14.4,7.4,Whipple,188,1268,No,11.3,10.7,Infection,High,Antibiotics,564 mg/day,7 days
+P01127,57,Female,31.9,2,No,No,No,12.7,8.1,Distal Pancreatectomy,311,839,No,11.4,7.7,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01128,49,Female,18.3,2,Yes,No,Yes,12.6,7.6,Whipple,270,687,No,10.6,9.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01129,67,Male,25.2,2,No,No,No,14.3,6.0,Whipple,529,834,No,11.8,5.9,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,2 units,1 days
+P01130,59,Female,28.3,2,No,Yes,No,12.6,1.4,Total Pancreatectomy,411,556,No,9.1,4.3,Infection,High,Antibiotics,575 mg/day,7 days
+P01131,51,Female,28.8,2,Yes,No,No,14.6,7.1,Whipple,365,800,Yes,12.9,11.9,None,High,No Medication,0,0 days
+P01132,67,Female,28.4,2,No,Yes,No,11.5,8.6,Distal Pancreatectomy,461,1078,No,9.8,9.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01133,81,Female,20.0,3,No,Yes,No,13.8,12.4,Whipple,198,1425,No,10.8,15.3,Infection,High,Antibiotics,500 mg/day,7 days
+P01134,36,Male,22.5,4,No,Yes,No,15.0,6.2,Whipple,241,145,No,12.1,7.0,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P01135,48,Female,23.4,2,No,No,No,14.2,5.7,Whipple,278,1140,Yes,11.6,6.0,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P01136,74,Female,30.1,2,Yes,No,Yes,10.8,7.6,Whipple,470,1483,No,9.0,10.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,2 days
+P01137,74,Female,22.2,4,Yes,No,Yes,12.2,6.5,Distal Pancreatectomy,177,1384,No,10.9,6.5,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P01138,73,Male,21.2,2,No,No,No,12.7,9.6,Whipple,505,1246,No,10.5,12.9,Infection,High,Antibiotics,500 mg/day,7 days
+P01139,40,Female,32.4,2,Yes,Yes,No,14.2,5.4,Whipple,297,330,Yes,11.1,5.1,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,3 days
+P01140,40,Male,18.1,2,No,Yes,Yes,11.4,6.5,Whipple,477,1049,No,8.3,6.7,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P01141,37,Male,33.0,3,No,Yes,No,11.8,8.8,Whipple,214,736,Yes,11.2,11.9,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P01142,41,Female,28.2,2,No,Yes,No,11.1,7.6,Distal Pancreatectomy,367,211,No,9.4,10.9,Infection,Medium,Antibiotics,574 mg/day,7 days
+P01143,42,Female,30.4,4,Yes,No,No,12.0,9.3,Whipple,200,692,No,10.2,9.0,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,3 days
+P01144,76,Male,22.4,2,No,No,No,11.5,6.1,Distal Pancreatectomy,454,1369,Yes,8.1,9.3,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,3 days
+P01145,49,Female,18.2,3,No,Yes,No,14.9,9.5,Total Pancreatectomy,223,958,No,12.4,14.5,Infection,High,Antibiotics,500 mg/day,7 days
+P01146,81,Male,29.1,2,No,Yes,No,12.2,3.7,Distal Pancreatectomy,348,490,No,10.6,7.9,Organ Failure,High,IV Fluids + Vasopressors,1.4 L/day,3 days
+P01147,63,Male,30.5,3,No,Yes,No,13.8,3.8,Distal Pancreatectomy,341,491,No,13.4,4.2,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,7 days
+P01148,67,Female,29.1,3,No,Yes,Yes,13.0,9.6,Whipple,338,427,No,10.9,13.0,Infection,High,Antibiotics,585 mg/day,7 days
+P01149,64,Female,20.1,3,No,No,No,13.0,7.0,Whipple,161,1338,No,12.4,10.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01150,73,Male,29.3,3,No,No,No,12.3,8.8,Total Pancreatectomy,388,846,No,9.3,8.5,Organ Failure,High,IV Fluids + Vasopressors,1.5 L/day,5 days
+P01151,61,Male,29.5,3,No,No,No,13.9,7.2,Distal Pancreatectomy,509,466,No,11.2,12.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P01152,70,Male,27.9,4,Yes,No,No,13.2,7.0,Distal Pancreatectomy,230,181,No,11.4,12.4,Infection,High,Antibiotics,570 mg/day,7 days
+P01153,63,Male,29.5,3,No,Yes,No,13.1,4.3,Distal Pancreatectomy,532,905,No,11.4,9.3,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,3 days
+P01154,72,Female,30.7,3,No,Yes,No,12.3,6.9,Whipple,419,921,Yes,9.1,11.8,Infection,High,Antibiotics,604 mg/day,5 days
+P01155,67,Female,27.2,2,No,No,No,12.5,9.7,Whipple,439,1199,No,11.3,14.0,None,High,No Medication,0,0 days
+P01156,71,Female,19.3,1,No,No,No,13.7,7.1,Distal Pancreatectomy,197,1051,No,12.6,10.7,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01157,61,Female,25.3,2,No,Yes,No,13.3,8.4,Distal Pancreatectomy,466,471,No,10.0,12.3,Bleeding,High,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P01158,67,Female,19.2,3,No,No,No,13.1,8.3,Whipple,358,1388,No,10.2,13.0,Organ Failure,High,IV Fluids + Vasopressors,2.4 L/day,5 days
+P01159,38,Male,24.1,2,No,No,No,12.1,5.0,Total Pancreatectomy,184,363,No,9.2,8.8,None,Low,Pain Management,100 mg/day,3 days
+P01160,56,Female,24.1,2,No,No,No,15.3,8.7,Whipple,268,209,No,14.4,10.3,None,Low,Pain Management,100 mg/day,1 days
+P01161,36,Female,19.0,4,No,No,No,12.4,6.4,Whipple,214,406,No,11.6,8.3,Organ Failure,Medium,IV Fluids + Vasopressors,2.6 L/day,5 days
+P01162,44,Female,23.2,4,No,No,No,13.0,6.5,Total Pancreatectomy,464,1323,No,12.6,11.8,Infection,High,Antibiotics,514 mg/day,7 days
+P01163,39,Female,19.7,4,Yes,No,Yes,12.8,11.2,Distal Pancreatectomy,391,325,Yes,11.7,10.8,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P01164,44,Female,30.1,2,No,Yes,No,15.3,8.2,Distal Pancreatectomy,185,284,No,12.5,12.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,1 days
+P01165,67,Male,32.2,3,No,Yes,No,12.7,5.7,Whipple,401,1063,No,11.6,11.4,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01166,72,Male,19.1,2,No,Yes,Yes,12.5,7.1,Whipple,392,130,No,9.9,11.2,None,High,No Medication,0,0 days
+P01167,47,Male,32.3,2,No,Yes,No,13.1,7.1,Distal Pancreatectomy,191,713,No,12.0,13.1,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,3 days
+P01168,65,Female,25.8,2,No,No,No,12.2,10.4,Whipple,218,198,Yes,10.6,14.4,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,1 units,2 days
+P01169,81,Male,22.5,2,No,No,No,13.1,7.1,Distal Pancreatectomy,256,1462,Yes,9.7,6.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,4 units,3 days
+P01170,70,Male,19.2,2,Yes,Yes,Yes,15.8,11.4,Total Pancreatectomy,188,910,No,14.7,16.3,Infection,High,Antibiotics,500 mg/day,7 days
+P01171,79,Female,25.5,3,No,No,No,13.4,4.4,Distal Pancreatectomy,218,1389,No,11.9,5.8,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01172,58,Female,29.9,2,No,Yes,No,13.3,6.9,Whipple,329,751,No,12.0,9.3,None,Medium,Pain Management,200 mg/day,1 days
+P01173,49,Female,28.6,3,Yes,Yes,No,12.1,5.5,Distal Pancreatectomy,161,913,No,11.4,7.0,Organ Failure,High,IV Fluids + Vasopressors,2.3 L/day,5 days
+P01174,63,Male,18.8,3,Yes,Yes,No,15.1,6.0,Whipple,488,1473,Yes,13.2,7.2,Organ Failure,High,IV Fluids + Vasopressors,2.2 L/day,5 days
+P01175,42,Male,19.1,2,No,Yes,No,15.3,6.1,Whipple,353,1119,Yes,13.8,8.4,Organ Failure,High,IV Fluids + Vasopressors,2.6 L/day,5 days
+P01176,39,Female,24.0,3,No,Yes,No,14.0,5.6,Whipple,185,1077,No,11.5,7.6,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,2 days
+P01177,63,Female,22.4,2,Yes,No,No,13.8,10.5,Whipple,275,187,No,10.9,14.1,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,7 days
+P01178,81,Male,21.5,3,No,Yes,No,12.7,9.8,Total Pancreatectomy,212,1186,No,10.7,14.6,Infection,High,Antibiotics,500 mg/day,7 days
+P01179,38,Male,22.2,2,No,No,No,13.5,7.8,Whipple,481,1021,No,13.1,9.2,Bleeding,Medium,Blood Transfusion + Hemostatic Agent,3 units,1 days
+P01180,46,Female,30.1,2,No,Yes,Yes,12.0,6.1,Whipple,231,685,No,9.7,7.0,Organ Failure,High,IV Fluids + Vasopressors,1.6 L/day,5 days
+P01181,79,Female,31.9,2,No,Yes,No,11.6,5.6,Total Pancreatectomy,456,917,Yes,11.1,9.4,Organ Failure,High,IV Fluids + Vasopressors,1.2 L/day,5 days
+P01182,36,Male,24.1,3,No,Yes,No,11.2,8.5,Whipple,448,1031,No,8.9,12.4,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,7 days
+P01183,61,Female,31.6,4,No,No,No,13.5,7.6,Distal Pancreatectomy,183,1392,No,11.0,13.0,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P01184,65,Male,22.8,2,No,Yes,Yes,11.3,6.7,Whipple,389,896,Yes,10.4,6.3,Organ Failure,High,IV Fluids + Vasopressors,2.7 L/day,5 days
+P01185,70,Male,25.1,3,No,No,No,12.4,8.1,Whipple,246,1118,No,9.5,13.1,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,5 days
+P01186,70,Male,21.4,3,Yes,No,Yes,12.9,8.8,Total Pancreatectomy,198,1112,No,9.7,11.7,None,High,Pain Management,100 mg/day,3 days
+P01187,60,Male,27.6,4,No,No,Yes,14.2,6.7,Whipple,295,1072,No,11.3,10.2,Organ Failure,High,IV Fluids + Vasopressors,2.0 L/day,3 days
+P01188,77,Female,32.7,3,Yes,No,No,12.3,5.4,Distal Pancreatectomy,274,732,No,11.0,5.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P01189,61,Female,27.1,3,Yes,Yes,No,14.3,4.4,Whipple,338,445,No,12.1,6.7,Infection,High,Antibiotics,561 mg/day,7 days
+P01190,39,Male,23.4,3,Yes,Yes,No,14.1,7.5,Whipple,206,823,Yes,10.9,8.5,None,High,Pain Management,100 mg/day,2 days
+P01191,54,Male,27.7,4,Yes,Yes,Yes,11.7,11.3,Whipple,498,1000,Yes,10.4,12.5,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,2 days
+P01192,45,Male,19.8,2,No,No,No,14.3,4.8,Whipple,258,1201,Yes,11.4,7.6,Infection,High,Antibiotics,500 mg/day,7 days
+P01193,44,Male,31.3,2,Yes,Yes,Yes,12.7,9.2,Whipple,154,1488,No,12.4,14.0,Infection,High,Antibiotics,611 mg/day,5 days
+P01194,74,Male,25.5,1,No,Yes,No,12.4,5.6,Distal Pancreatectomy,173,1137,Yes,12.1,9.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,3 units,3 days
+P01195,72,Female,24.7,3,No,No,No,12.7,6.1,Whipple,370,235,No,10.0,9.4,Organ Failure,Medium,IV Fluids + Vasopressors,2.2 L/day,3 days
+P01196,40,Female,26.8,3,No,Yes,No,13.0,8.8,Whipple,464,1427,Yes,10.3,11.8,Organ Failure,High,IV Fluids + Vasopressors,1.9 L/day,5 days
+P01197,42,Female,27.4,2,Yes,No,No,12.5,6.5,Whipple,443,496,No,9.7,8.8,None,Medium,Pain Management,300 mg/day,3 days
+P01198,57,Female,19.1,3,No,No,Yes,12.0,7.5,Total Pancreatectomy,159,891,Yes,8.7,13.3,Infection,High,Antibiotics,500 mg/day,10 days
+P01199,81,Male,28.2,3,No,Yes,No,12.1,7.5,Total Pancreatectomy,314,178,No,11.4,10.6,Infection,High,Antibiotics,574 mg/day,7 days
+P01200,60,Male,21.6,2,No,Yes,No,13.2,5.7,Distal Pancreatectomy,364,804,Yes,12.2,6.9,Bleeding,High,Blood Transfusion + Hemostatic Agent,2 units,1 days
